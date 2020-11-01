@@ -1,14 +1,18 @@
 # **Vibrant Future Foundation**
 
 ## **Purpose/Aim**
-Raise awareness of the vulnerable communities of elderly and children who are less fortunate and without any support from their family or close relatives. 
-These peoples are in difficulties , negleted and unable to be self sufficient due to poverty, sickness, disability and wars."Vibrant Future Foundation"
-was originally formed to provide help and any possible support , both financially and mentally to those vulnerable people around the world and specially 
-in underdevelop and poor country. 
+Raise awareness about the vulnerable communities of elderly and children who are less fortunate and without any support from their family or close relatives. 
+These peoples are in difficulties, negleted and unable to be self sufficient due to poverty, illness, disability and even wars. "Vibrant Future Foundation"
+was originally formed to provide help, aids and any possible support for both financially and mentally to those vulnerable people around the world and specially 
+in underdeveloped and poor country. 
 
-With this in mind i have decided to build the mock-up website as a platform to support the foundation so that we can grab more attentions from the people.
-Main purpose of this website is to let people around us to know about this foundation, how we help people and how small support from everyone would
-be such a valuable thing so that more people will engage with our aim and we can extensively 
+With this aim in mind, I have decided to build this mock-up website as a platform to support the foundation so that we can grab more attentions and 
+receiving greater/wider support from the various people and corporations as well as possible future collaborations.
+
+Main purpose of this website is to let people around us to know about this foundation and at the same time to plant awareness
+of real social issues in the communities and broader societies.
+Also, share the information on how we help people and no matter what the size of the support, big or small, from everyone would
+be such a valuable and appreciated act of kindness so that more people will engage and be attracted with our aim and we can extensively 
 help people around the world.
 
 ## **User Stories **
