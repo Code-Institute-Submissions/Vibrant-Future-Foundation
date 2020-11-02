@@ -31,12 +31,6 @@ a:hover {
 }
 
 /*--------------------------Page 1 ---------*/
-.intro img {
-  display: block;
-  width: 5em;
-  margin: auto;
-}
-
 .hero-container {
   height: 100vh;
   background: url("../images/child.jpg") no-repeat;
@@ -72,5 +66,24 @@ a:hover {
   color: #fff5ee;
   font-weight: 700;
   font-size: 19px;
-  padding-top: 10px;
+}
+
+.intro img {
+  display: block;
+  width: 5em;
+  margin: auto;
+  margin-top: -20%;
+}
+
+/*----------Footer-------*/
+
+.footer-container {
+  background-color: #2196f39e !important;
+  color: #fff5ee;
+  margin-top: -3px;
+  border-top: 3px solid #72636b;
+}
+
+.footer-text {
+  margin: auto;
 }
