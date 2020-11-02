@@ -1,1 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
+/*------------------Specials----*/
+.heading {
+  font-size: 1.5em;
+  font-family: "Chelsea Market", sans-serif;
+  color: #130303;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  font-family: "PT sans", sans-serif;
+  color: black;
+  font-size: 1em;
+  text-align: center;
+}
+/*-----------------------Navigation---------------*/
+.bg-dark {
+  background-color: #2196f39e !important;
+}
+
+a.active,
+a:hover {
+  background: #be127427;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/*--------------------------Page 1 ---------*/
+.intro img {
+  display: block;
+  width: 5em;
+  margin: auto;
+}
+
+.hero-container {
+  height: 100vh;
+  background: url("../images/child.jpg") no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-bottom: 3px solid #525252;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.jumbotron-title {
+  color: #fafafa;
+  padding-bottom: 10px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.intro {
+  color: #fff5ee;
+  font-weight: 700;
+  font-size: 19px;
+  padding-top: 10px;
+}

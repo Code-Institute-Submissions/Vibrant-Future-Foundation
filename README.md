@@ -27,12 +27,12 @@ help people around the world.
 - As a user of this site, I want to get information on future activities on charitable or voluntering activities
 - As a user of this site, I want to be able to contact the founders or administrator to answer any query i may have
 
-## **Features 
+## **Features**
 The navigation bar is fixed to the top of the page with links to each section, so all pages can be easily accessed using the navigation links from anywhere on the site. All navigation links have hoover effect and active class used
  so that users can easily understand on which page currently they are looking at.
 
-## ** Home **
+## **Home **
 The Home section features a full browser height background image to capture the users attention to the charity page . Name of the Charity which is also the title of the page is 
 overlayed on the image in the centre of the page. a unique slogan and logo of charity which i have created myself using powerpoint also overlayed on the image , aim of logo and 
 slogan is to make users more curious about the page so more users will be attracted. Main aim of this project is to get make as many users aware about the charity and encourage 
-as many users to involve into the charity therefore also a Join now button added to home page using button class so that users will be able to involve and be part of charity easily.
+as many users to involve into the charity therefore also a Join now button added to home page using button class so that users will be able to involve and be part of charity easily.git 
