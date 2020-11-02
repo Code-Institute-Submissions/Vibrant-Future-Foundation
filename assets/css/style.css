@@ -4,6 +4,15 @@ body {
 }
 
 /*------------------Specials----*/
+.vl{
+    border-left: 1px solid rgb(117, 113, 113);
+    height: 30%;
+    position: absolute;
+    margin: 0 auto;
+    transform: translate(8px, 6px);
+
+}
+
 .heading {
   font-size: 1.5em;
   font-family: "Chelsea Market", sans-serif;
@@ -18,14 +27,28 @@ body {
   font-size: 1em;
   text-align: center;
 }
+
+.btn-home{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
 /*-----------------------Navigation---------------*/
 .bg-dark {
   background-color: #2196f39e !important;
 }
 
+.navbar-light .navbar-nav .nav-link{
+font-size: 20px;
+color: #021c03;
+font-weight: 400;
+margin-left: 5px;
+margin-right: 5px;
+}
+
 a.active,
 a:hover {
-  background: #be127427;
+  background: #0b19e027;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -75,6 +98,7 @@ a:hover {
   margin-top: -20%;
 }
 
+
 /*----------Footer-------*/
 
 .footer-container {
@@ -87,3 +111,4 @@ a:hover {
 .footer-text {
   margin: auto;
 }
+
