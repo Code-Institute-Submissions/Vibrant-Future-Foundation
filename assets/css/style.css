@@ -133,6 +133,7 @@ a:hover {
   border-radius: 10px;
   height: 40px;
   width: 80px;
+  padding: 0;
   transform: translate(180px, 15px);
 }
 
