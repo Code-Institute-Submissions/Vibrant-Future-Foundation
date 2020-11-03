@@ -33,6 +33,7 @@ body {
   width: 18%;
   border: 2px solid var(--secondary);
   border-radius: 10px;
+  font-size: 18px;
 }
 
 /*-----------------------Navigation---------------*/
@@ -141,8 +142,7 @@ a:hover {
 
 /*----------Animation -------*/
 .flashing-effect {
-  background-color: #007bff;
-  animation: flashing 5s linear infinite;
+    animation: flashing 0.5s linear infinite;
 }
 
 @keyframes flashing {
@@ -150,7 +150,7 @@ a:hover {
     opacity: 1;
   }
   25% {
-    opacity: 0.6%;
+    opacity: 0.2%;
   }
   50% {
     opacity: 0.3;
