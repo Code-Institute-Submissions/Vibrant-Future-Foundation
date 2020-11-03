@@ -58,8 +58,9 @@
 						<section class="jumotron text-center">
 							<h1 class="jumbotron-title">Welcome<br> To<br>Vibrant Future Foundation</h1>
 								<p class="intro">Let's make a difference, hands-in-hand together</p>
-								<button type="button" class="btn btn-success btn-home">Join Us!</button>
-								<button type="button" class="btn btn-primary btn-home">Donate</button>
+								<button type="button" class="btn btn-success btn-home ">Join Us!</button>
+								<button type="button" class="btn btn-primary btn-home" data-toggle="modal"
+                data-target="#donateModal">Donate</button>
 						</section>
 					</div>
 				</div>
@@ -86,6 +87,111 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 	</script>
+     <div class="modal" tabindex="-1" role="dialog" id="donateModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">
+                Donate US!
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group donation-text">
+                  <label for="fullname">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Your Full Name"
+                    id="fullname" required
+                  />
+                  <small class="form-text text-muted"
+                    >We'll never share your personal details with anyone
+                    else.</small
+                  >
+                </div>
+                <div class="form-group donation-text">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter Your Email"
+                    id="email" required
+                    name="email"
+                  />
+                </div>
+                <div class="form-group donation-text">
+                  <label for="country">Country</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Country Where You Currently Live"
+                    id="country" requird
+                    name="country"
+                  />
+                </div>
+                <div class="form-group donation-text">
+                  <label for="contact">Contact Number</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Mobile/Landline No."
+                    id="phone"
+                    name="phone"
+                    pattern="[0-9]{11}" required
+                  />
+                </div>
+
+                <div>
+                  <h3 class="donation-text">
+                    How would you like to donate?
+                  </h3>
+                  <small class="text-dark small-donation-text"
+                    >Please select one</small
+                  >
+                  <select name="process" id="process" required>
+                    <option value="nothing">-</option>
+                    <option value="one-off donation">One-Off Donation</option>
+                    <option value="monthly donation">Monthly Donation</option>
+                    <option value="yearly donation">Yearly Donation</option>
+                  </select>
+                </div>
+                <div>
+                  <h3 class="donation-text">
+                    How Much would you like to donate?
+                  </h3>
+                  <small class="text-dark small-donation-text"
+                    >Please enter amount</small
+                  >
+                  <label for="number">£</label>
+                  <input
+                    type="number"
+                    id="number" required
+                    placeholder="£"
+                    step="2"
+                    min="10"
+                    max="1000"
+                  />
+                </div>
+                <button type="submit" class="btn btn-lg btn-primary btn--dot">
+                  Submit
+                </button>
+                <h3 class="donation-sub">
+                  Thank You! Your Donation Means a lot!
+                </h3>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 
 </html>

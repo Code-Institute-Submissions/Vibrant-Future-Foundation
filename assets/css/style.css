@@ -25,10 +25,14 @@ body {
   font-size: 1em;
   text-align: center;
 }
-
+/*-------------------Buttons-----------------*/
 .btn-home{
     margin-right: 3%;
     margin-left: 3%;
+    height: 3em;
+    width: 18%;
+    border: 2px solid var(--secondary);
+    border-radius: 10px;
 }
 
 /*-----------------------Navigation---------------*/
@@ -112,3 +116,51 @@ a:hover {
 
 
 /*----------@media -------*/
+
+
+/*----------Animation -------*/
+.flashing-effect {
+  background-color: #007bff;
+  animation: flashing 5s linear infinite;
+}
+
+@keyframes flashing {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.6%;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  75% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+    background-color: var(--danger);
+}
+
+.donation-text{
+    font-size: medium;
+}
+
+.donation-sub{
+    font-size: 1.25em;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.btn--dot{
+    border: 2px solid var(--secondary);
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    transform: translate(180px, 15px);
+}
+    
