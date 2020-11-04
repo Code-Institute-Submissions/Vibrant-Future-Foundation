@@ -200,6 +200,20 @@ body {
 .clarity-row{
     margin-top: 30px;
 }
+
+/*----Page 2 (Media Section )-----------*/
+.heading-media {
+  font-size: 18px;
+}
+.sub-heading-media {
+  font-size: 12px;
+}
+
+.heading-connect,
+.heading-contact {
+  font-size: 10px;
+  text-transform: lowercase;
+}
 /*----------Footer-------*/
 
 .footer-container {
