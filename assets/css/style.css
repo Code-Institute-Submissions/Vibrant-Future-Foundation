@@ -49,12 +49,11 @@ body {
   margin-right: 5px;
 }
 
-/* a.active,
-a:hover {
-  color: red;
-  transition: 0.5s;
-  cursor: pointer;
-} */
+.navbar .navbar-brand{
+    color: #7c154c;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgb(0 14 255 / 62%);
+}
 
 /*--------------------------Page 1 ---------*/
 .hero-container {
