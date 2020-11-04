@@ -25,13 +25,14 @@ body {
   font-size: 1em;
 }
 
-.block-divider{
+.block-divider-medium{
     width: 150px;
     border: 1px solid #ac9f9f;
 }
 
 .block-divider-small{
     width: 60px;
+    border: 1px solid #ac9f9f;
 }
 /*-------------------Buttons-----------------*/
 
@@ -218,6 +219,22 @@ body {
 .heading-contact {
   text-transform: unset;
 }
+
+.col-social,
+.col-media {
+  align-items: center;
+  text-align: center;
+}
+
+.list-inline-social{
+    padding: 0;
+    list-style: none;
+}
+
+.list-inline-item {
+  display: inline;
+  font-size: 40px;
+}
 /*----------Footer-------*/
 
 .footer-container {
@@ -253,6 +270,15 @@ body {
     height: fit-content;
   }
 }
+
+/* @media (min-width: 1024px) and (max-width: 1024px){
+  .about-container,
+  .founder-row,
+  .clarity-row,
+  .media-row{
+    margin-top: 10%;
+  }
+} */
 /*----------Animation -------*/
 .flashing-effect {
   animation: flashing 0.5s linear infinite;
