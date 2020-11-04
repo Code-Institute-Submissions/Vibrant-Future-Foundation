@@ -214,6 +214,10 @@ body {
   font-size: 10px;
   text-transform: lowercase;
 }
+
+.heading-contact {
+  text-transform: unset;
+}
 /*----------Footer-------*/
 
 .footer-container {
