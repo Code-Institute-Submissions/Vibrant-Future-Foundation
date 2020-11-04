@@ -24,6 +24,15 @@ body {
   color: black;
   font-size: 1em;
 }
+
+.block-divider{
+    width: 150px;
+    border: 1px solid #ac9f9f;
+}
+
+.block-divider-small{
+    width: 60px;
+}
 /*-------------------Buttons-----------------*/
 
 .btn-info {
