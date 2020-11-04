@@ -107,6 +107,11 @@ body {
   margin-top: -20%;
 }
 
+/*----Page 2 (About section)----------*/
+.about-container {
+  margin: 30px;
+}
+
 /*----------Footer-------*/
 
 .footer-container {
