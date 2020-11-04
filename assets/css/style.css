@@ -35,7 +35,14 @@ body {
   border-radius: 10px;
   font-size: 18px;
 }
-
+.btn--dot {
+  border: 2px solid var(--secondary);
+  border-radius: 10px;
+  height: 40px;
+  width: 80px;
+  padding: 0;
+  transform: translate(180px, 15px);
+}
 /*-----------------------Navigation---------------*/
 .bg-dark {
   background-color: #1e7a7ecc !important;
@@ -128,17 +135,13 @@ body {
   margin-top: 5%;
 }
 
-.btn--dot {
-  border: 2px solid var(--secondary);
-  border-radius: 10px;
-  height: 40px;
-  width: 80px;
-  padding: 0;
-  transform: translate(180px, 15px);
-}
-
 /*----------@media -------*/
-
+@media screen and (max-width: 576px){
+.btn-home {
+    width: fit-content;
+    height: fit-content;
+}
+}
 /*----------Animation -------*/
 .flashing-effect {
     animation: flashing 0.5s linear infinite;
