@@ -23,9 +23,13 @@ body {
   font-family: "PT sans", sans-serif;
   color: black;
   font-size: 1em;
-  text-align: center;
 }
 /*-------------------Buttons-----------------*/
+
+.btn-info {
+  border-radius: 20px;
+}
+
 .btn-home {
   margin-right: 3%;
   margin-left: 3%;
@@ -56,10 +60,10 @@ body {
   margin-right: 5px;
 }
 
-.navbar .navbar-brand{
-    color: #7c154c;
-    font-weight: 600;
-    text-shadow: 2px 2px 2px rgb(0 14 255 / 62%);
+.navbar .navbar-brand {
+  color: #7c154c;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px rgb(0 14 255 / 62%);
 }
 
 /*--------------------------Page 1 ---------*/
@@ -112,6 +116,82 @@ body {
   margin: 30px;
 }
 
+/*----Page 2 (Founder section)-----------*/
+.founder-intro {
+  margin-bottom: 1%;
+}
+
+#box1 {
+  height: 200px;
+  width: 200px;
+  background: url("../images/sn.jpg") no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 8px;
+  border: 2px solid red;
+}
+
+#box2 {
+  height: 200px;
+  width: 200px;
+  background: url("../images/ak.jpg") no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 8px;
+  border: 2px solid red;
+}
+
+#box3 {
+  height: 200px;
+  width: 200px;
+  background: url("../images/sb.jpg") no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 9px;
+  border: 2px solid red;
+}
+
+#box4 {
+  height: 200px;
+  width: 200px;
+  background: url("../images/pt.jpg") no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 9px;
+  border: 2px solid red;
+}
+
+.square-flag {
+  height: 32px;
+  width: 32px;
+  background: url("../images/flag-uk.jpg") no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-bottom: 2px;
+  margin-top: -10px;
+}
+
+.triangle-flag {
+  height: 32px;
+  width: 32px;
+  background: url("../images/flag-np.jpg") no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: -12px;
+}
+
+.heading-indivisuals {
+  margin-top: 2px;
+  margin-bottom: 10px;
+  color: #525252;
+  font-size: 15px;
+}
+
+.indivisual-row {
+  margin-top: 3%;
+}
+
+
 /*----------Footer-------*/
 
 .footer-container {
@@ -141,15 +221,15 @@ body {
 }
 
 /*----------@media -------*/
-@media screen and (max-width: 576px){
-.btn-home {
+@media screen and (max-width: 576px) {
+  .btn-home {
     width: fit-content;
     height: fit-content;
-}
+  }
 }
 /*----------Animation -------*/
 .flashing-effect {
-    animation: flashing 0.5s linear infinite;
+  animation: flashing 0.5s linear infinite;
 }
 
 @keyframes flashing {
