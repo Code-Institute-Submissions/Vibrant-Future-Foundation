@@ -126,8 +126,8 @@ body {
 }
 
 /*----Page 2 (Founder section)-----------*/
-.founder-intro {
-  margin-bottom: 1%;
+.indivisual-row {
+  margin-top: 3%;
 }
 
 #box1 {
@@ -194,10 +194,6 @@ body {
   margin-bottom: 10px;
   color: #525252;
   font-size: 15px;
-}
-
-.indivisual-row {
-  margin-top: 3%;
 }
 
 
