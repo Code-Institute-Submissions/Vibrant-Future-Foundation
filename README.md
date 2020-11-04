@@ -28,11 +28,13 @@ help people around the world.
 - As a user of this site, I want to be able to contact the founders or administrator to answer any query i may have
 
 ## **Features**
-The navigation bar is fixed to the top of the page with links to each section, so all pages can be easily accessed using the navigation links from anywhere on the site. All navigation links have hoover effect and active class used
- so that users can easily understand on which page currently they are looking at.
+The navigation bar is fixed to the top of the page with links to each section, so all pages can be easily accessed using the navigation links from anywhere on the site. All navigation links have hoover effect 
+and active class on them so that users can easily understand on which page currently they are looking at.
 
 ## **Home **
 The Home section features a full browser height background image to capture the users attention to the charity page . Name of the Charity which is also the title of the page is 
 overlayed on the image in the centre of the page. a unique slogan and logo of charity which i have created myself using powerpoint also overlayed on the image , aim of logo and 
-slogan is to make users more curious about the page so more users will be attracted. Main aim of this project is to get make as many users aware about the charity and encourage 
-as many users to involve into the charity therefore also a Join now button added to home page using button class so that users will be able to involve and be part of charity easily.git 
+slogan is to make users more curious about the page so more users will be attracted. Main aim of this project is to  make as many users aware about the charity and encourage 
+to involve and support the charity therefore  Join now and donate button also added to home page using button class so that users will be able to involve, donate  and 
+be part of charity easily. flashing animation effect used to style donate button to make the button more eye cathy to the users which may help charity to raise fund.
+small footer section can be seen at the bootom of the hompage which only contains copyright message and appear across all pages on the site.
