@@ -155,7 +155,8 @@
 				<h1 class="heading heading-media">Sign Up to Our Newsletter</h1>
 				<p class="sub-heading sub-heading-media">Get Connected to us , all of our upcoming events and updates
 					straight to your inbox!</p>
-				<button type="button" class="btn btn-primary btn--signUp">Sign Up!</button>
+				<button type="button" class="btn btn-primary btn--signUp" data-toggle="modal"
+                data-target="#signUpModal">Sign Up!</button>
 			</div>
 			<div class="col-sm-4 col-social">
 				<h1 class="heading heading-media">Why not connectiong to us via social media too ?
@@ -228,6 +229,59 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 	</script>
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog">
+          <div class="modal-content small-modal">
+            <div class="modal-header">
+              <h5 class="modal-title modal-text ">
+                Sign Up!
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group modal-text">
+                  <label for="fullname">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Your Full Name"
+                    id="fullname" required
+                  />
+                  <small class="form-text text-muted"
+                    >We'll never share your personal details with anyone
+                    else.</small
+                  >
+                </div>
+                <div class="form-group modal-text">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter Your Email"
+                    id="email" required
+                    name="email"
+                  />
+                </div>
+                
+                <button type="submit" class="btn btn-lg btn-primary btn--dot">
+                  Send
+                </button>
+                <h3 class="modal-sub">
+                  Thank You for Signing Up!
+                </h3>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -271,11 +271,25 @@ body {
   font-size: medium;
 }
 
-.donation-sub {
+.donation-sub,
+.modal-sub{
   font-size: 1.25em;
   text-align: center;
   margin-top: 5%;
 }
+
+.modal-sub{
+    color: yellowgreen;
+}
+
+.small-modal{
+    background-color: #6e2229;
+}
+
+.modal-text{
+    color: #f8f9fa;
+}
+
 
 /*----------@media -------*/
 @media screen and (max-width: 576px) {
