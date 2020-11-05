@@ -126,6 +126,10 @@ body {
   margin: 30px;
 }
 
+.sub-heading-about{
+    margin-top: 1%
+}
+
 /*----Page 2 (Founder section)-----------*/
 .indivisual-row {
   margin-top: 3%;
@@ -275,14 +279,17 @@ body {
   }
 }
 
-/* @media (min-width: 1024px) and (max-width: 1024px){
+@media (min-width: 1024px) and (max-width: 1024px){
   .about-container,
   .founder-row,
-  .clarity-row,
-  .media-row{
-    margin-top: 10%;
+  .clarity-row{
+    margin-top: 8%;
+    margin-bottom: 4%;
   }
-} */
+.media-row{
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
 /*----------Animation -------*/
 .flashing-effect {
   animation: flashing 0.5s linear infinite;
