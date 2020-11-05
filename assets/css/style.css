@@ -235,6 +235,10 @@ body {
   display: inline;
   font-size: 40px;
 }
+
+.btn-primary {
+  margin-bottom: 20px;
+}
 /*----------Footer-------*/
 
 .footer-container {
