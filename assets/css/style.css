@@ -335,6 +335,23 @@ body {
    color: #fafafa;
    text-align: center;
 }
+
+/*----------------Page 3 (Mission and Vission)-------*/
+.missionAndVision-row {
+  margin-top: 3%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mission-col,
+.vision-col {
+  border: 1px dotted black;
+  border-radius: 30px;
+  padding: 2px;
+  background: lightblue;
+  background-clip: content-box;
+  margin: 20px;
+
 /*----------Footer-------*/
 
 .footer-container {
