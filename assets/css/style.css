@@ -66,6 +66,8 @@ body {
   margin: 0 auto;
   width: auto;
   border-radius: 0;
+  transform: translate(5%, 45%);
+  display: block;
 }
 /*-----------------------Navigation---------------*/
 .bg-dark {
