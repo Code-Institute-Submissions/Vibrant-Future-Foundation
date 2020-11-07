@@ -28,7 +28,7 @@ help people around the world.
 - As a user of this site, I want to be able to contact the founders or administrator to answer any query i may have
 
 ## **Features**
-The navigation bar is fixed to the top of the page with links to each section, so all pages can be easily accessed using the navigation links from anywhere on the site. All navigation links have hoover effect 
+The navigation bar is fixed to the top of the pages with links to each section, so all pages can be easily accessed using the navigation links from anywhere on the site. All navigation links have hoover effect 
 and active class on them so that users can easily understand on which page currently they are looking at.
 
 ## **Home **
