@@ -323,9 +323,17 @@ body {
 
 /*-- concept of code taken from youtube video of decode (End)--*/
 
-.action-heading,
+
 .action-sub-heading {
   color: #fafafa;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.action-heading{
+   margin-right: auto;
+   padding-left: 15%;
+   color: #fafafa;
 }
 /*----------Footer-------*/
 
