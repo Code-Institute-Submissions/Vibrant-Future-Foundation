@@ -61,6 +61,12 @@ body {
 .btn--signUp{
   margin-bottom: 20px;
 }
+
+.btn--cta {
+  margin: 0 auto;
+  width: auto;
+  border-radius: 0;
+}
 /*-----------------------Navigation---------------*/
 .bg-dark {
   background-color: #1e7a7ecc !important;
@@ -249,6 +255,76 @@ body {
   font-size: 40px;
 }
 
+/*----------Page 3 -------*/
+.textAndImage {
+  height: 550px;
+  width: 100%;
+  position: relative;
+}
+
+.textOverImage1 {
+  background: url(../images/run.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.textOverImage2 {
+  background: url(../images/ride.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.textOverImage3 {
+  background: url(../images/fund.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.image-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+/*-- concept of code taken from youtube video of dcode (start)--*/
+
+.image-overlay-blur {
+  backdrop-filter: blur(12px);
+}
+
+.image-overlay > * {
+  transform: translateY(100px);
+  transition: transform 0.9s;
+}
+
+.image-overlay:hover {
+  opacity: 1;
+}
+
+.image-overlay:hover > * {
+  transform: translateY(0);
+}
+
+/*-- concept of code taken from youtube video of decode (End)--*/
+
+.action-heading,
+.action-sub-heading {
+  color: #fafafa;
+}
 /*----------Footer-------*/
 
 .footer-container {
