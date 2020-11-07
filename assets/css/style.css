@@ -351,8 +351,17 @@ body {
   background: lightblue;
   background-clip: content-box;
   margin: 20px;
+  text-align: center;
 }
 
+.heading-vision{
+    padding-top: 10%;
+}
+
+.sub-heading-mission,
+.sub-heading-vision {
+padding: 0 5% 0 5%;
+}
 /*----------Footer-------*/
 
 .footer-container {
