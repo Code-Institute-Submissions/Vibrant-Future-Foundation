@@ -34,6 +34,14 @@ body {
   width: 60px;
   border: 1px solid #ac9f9f;
 }
+
+#content-2,
+#content-3,
+#content-4 {
+    background: #66bae261;
+    padding-right: 20px;
+    padding-left: 20px;
+}
 /*-------------------Buttons-----------------*/
 
 .btn-info {
@@ -135,8 +143,8 @@ body {
 }
 
 /*----Page 2 (About section)----------*/
-.about-container {
-  margin: 30px;
+.heading-about{
+padding-top: 3%;
 }
 
 .sub-heading-about {
@@ -259,6 +267,10 @@ body {
 }
 
 /*----------Page 3 -------*/
+.heading-main{
+    padding-top: 3%;
+}
+
 .textAndImage {
   height: 550px;
   width: 100%;
@@ -368,10 +380,6 @@ body {
 }
 
 /*------------Page 4---------*/
-#content-3 {
-  background: #66bae261;
-}
-
 #appeal {
   position: relative;
   height: 700px;
@@ -392,10 +400,6 @@ body {
   position: absolute;
   left: 30%;
   color: #f8f9fa; */
-}
-
-.col-image {
-  margin-left: 0%;
 }
 
 /*-------------Page 4 (Form)-------*/
