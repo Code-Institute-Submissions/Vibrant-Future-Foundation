@@ -59,7 +59,7 @@ body {
 }
 
 .btn--signUp {
-  margin-bottom: 20px;
+  margin-bottom: 5%;
 }
 
 .btn--cta {
@@ -71,7 +71,7 @@ body {
 }
 /*-----------------------Navigation---------------*/
 .bg-dark {
-  background-color: #1e7a7ecc !important;
+  background-color: #1e7e34 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -83,8 +83,9 @@ body {
 }
 
 .navbar .navbar-brand {
-  color: #7c154c;
+  color: #fafafa;
   font-weight: 600;
+  font-size: xx-large;
   text-shadow: 2px 2px 2px rgb(0 14 255 / 62%);
 }
 
