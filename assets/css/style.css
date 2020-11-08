@@ -397,6 +397,35 @@ body {
 .col-image {
   margin-left: 0%;
 }
+
+/*-------------Page 4 (Form)-------*/
+form{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 25%;
+}
+
+input[type=text], [type=tel] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20%;
+}
 /*----------Footer-------*/
 
 .footer-container {
