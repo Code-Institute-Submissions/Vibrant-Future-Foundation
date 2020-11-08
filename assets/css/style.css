@@ -25,14 +25,14 @@ body {
   font-size: 20px;
 }
 
-.block-divider-medium{
-    width: 150px;
-    border: 1px solid #ac9f9f;
+.block-divider-medium {
+  width: 150px;
+  border: 1px solid #ac9f9f;
 }
 
-.block-divider-small{
-    width: 60px;
-    border: 1px solid #ac9f9f;
+.block-divider-small {
+  width: 60px;
+  border: 1px solid #ac9f9f;
 }
 /*-------------------Buttons-----------------*/
 
@@ -58,7 +58,7 @@ body {
   transform: translate(180px, 15px);
 }
 
-.btn--signUp{
+.btn--signUp {
   margin-bottom: 20px;
 }
 
@@ -138,8 +138,8 @@ body {
   margin: 30px;
 }
 
-.sub-heading-about{
-    margin-top: 1%
+.sub-heading-about {
+  margin-top: 1%;
 }
 
 /*----Page 2 (Founder section)-----------*/
@@ -214,14 +214,14 @@ body {
 }
 
 /*----------Page 2 (Clarity Section)-------*/
-.clarity-row{
-    margin-top: 30px;
+.clarity-row {
+  margin-top: 30px;
 }
 
 /*----Page 2 (Media Section )-----------*/
 
-.media-row{
-    margin-top: 2%
+.media-row {
+  margin-top: 2%;
 }
 
 .heading-media {
@@ -247,9 +247,9 @@ body {
   text-align: center;
 }
 
-.list-inline-social{
-    padding: 0;
-    list-style: none;
+.list-inline-social {
+  padding: 0;
+  list-style: none;
 }
 
 .list-inline-item {
@@ -323,7 +323,6 @@ body {
 
 /*-- concept of code taken from youtube video of decode (End)--*/
 
-
 .action-sub-heading {
   color: #fafafa;
   padding-left: 15%;
@@ -331,9 +330,9 @@ body {
   text-align: center;
 }
 
-.action-heading{
-   color: #fafafa;
-   text-align: center;
+.action-heading {
+  color: #fafafa;
+  text-align: center;
 }
 
 /*----------------Page 3 (Mission and Vission)-------*/
@@ -354,23 +353,23 @@ body {
   text-align: center;
 }
 
-.heading-vision{
-    padding-top: 10%;
+.heading-vision {
+  padding-top: 10%;
 }
 
-.heading-mission{
-    padding-top: 1%
+.heading-mission {
+  padding-top: 1%;
 }
 
 .sub-heading-mission,
 .sub-heading-vision {
-padding: 0 5% 0 5%;
+  padding: 0 5% 0 5%;
 }
 
 /*------------Page 4---------*/
-#content-3{
-    background: #525252;
-    }
+#content-3 {
+  background: #525252;
+}
 
 #appeal {
   position: relative;
@@ -384,7 +383,13 @@ padding: 0 5% 0 5%;
   margin-top: 15%;
   margin-bottom: 15%;
   padding: 20px;
+}
 
+.top-center {
+  top: 12%;
+  position: absolute;
+  left: 30%;
+  color: #f8f9fa;
 }
 /*----------Footer-------*/
 
@@ -409,24 +414,23 @@ padding: 0 5% 0 5%;
 }
 
 .donation-sub,
-.modal-sub{
+.modal-sub {
   font-size: 1.25em;
   text-align: center;
   margin-top: 5%;
 }
 
-.modal-sub{
-    color: yellowgreen;
+.modal-sub {
+  color: yellowgreen;
 }
 
-.small-modal{
-    background-color: #6e2229;
+.small-modal {
+  background-color: #6e2229;
 }
 
-.modal-text{
-    color: #f8f9fa;
+.modal-text {
+  color: #f8f9fa;
 }
-
 
 /*----------@media -------*/
 @media screen and (max-width: 576px) {
@@ -436,17 +440,17 @@ padding: 0 5% 0 5%;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1024px){
+@media (min-width: 1024px) and (max-width: 1024px) {
   .about-container,
   .founder-row,
-  .clarity-row{
+  .clarity-row {
     margin-top: 9%;
     margin-bottom: 4%;
   }
-.media-row{
+  .media-row {
     margin-top: 6%;
     margin-bottom: 3%;
-}
+  }
 }
 /*----------Animation -------*/
 .flashing-effect {
