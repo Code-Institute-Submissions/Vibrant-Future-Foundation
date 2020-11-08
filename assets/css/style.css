@@ -366,6 +366,22 @@ body {
 .sub-heading-vision {
 padding: 0 5% 0 5%;
 }
+
+/*------------Page 4---------*/
+#content-3{
+    background: #525252;
+    }
+
+#appeal {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  border-radius: 5px;
+  background: url(../images/appeal.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*----------Footer-------*/
 
 .footer-container {
