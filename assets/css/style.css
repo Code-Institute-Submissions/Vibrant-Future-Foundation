@@ -424,7 +424,9 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 20%;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  display: block;
 }
 /*----------Footer-------*/
 
