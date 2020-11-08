@@ -399,7 +399,7 @@ body {
 }
 
 /*-------------Page 4 (Form)-------*/
-form{
+.joinUsForm{
     width: 100%;
     margin: 0 auto;
     margin-top: 25%;
