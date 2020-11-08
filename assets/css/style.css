@@ -52,7 +52,7 @@ body {
   margin-right: 3%;
   margin-left: 3%;
   height: 3em;
-  width: 18%;
+  /* width: 18%; */
   border: 2px solid var(--secondary);
   border-radius: 10px;
   font-size: 18px;
@@ -127,21 +127,24 @@ body {
 }
 
 .jumbotron-title {
-  color: var(--white);
+  color: #00f3ff;
   padding-bottom: 10px;
   font-weight: 800;
-  margin-bottom: 0;
+   left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
 
-.intro {
+.small-text{
   color: #d9c8bc;
   font-weight: 700;
   font-size: 19px;
+  margin-top: -10%;
 }
 
 .intro img {
   display: block;
-  width: 5em;
+  width: 40%;
   margin: auto;
   margin-top: -20%;
 }
