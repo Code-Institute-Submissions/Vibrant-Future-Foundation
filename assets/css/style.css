@@ -95,11 +95,16 @@ body {
 }
 
 .navbar .navbar-brand {
+  color: #7c154c;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px rgb(0 14 255 / 62%);
+}
+/* .navbar .navbar-brand {
   color: #fafafa;
   font-weight: 600;
   font-size: xx-large;
   text-shadow: 2px 2px 2px rgb(0 14 255 / 62%);
-}
+} */
 
 /*--------------------------Page 1 ---------*/
 .hero-container {
@@ -127,6 +132,19 @@ body {
 }
 
 .jumbotron-title {
+  color: #fafafa;
+  padding-bottom: 10px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.intro {
+  color: #fff5ee;
+  font-weight: 700;
+  font-size: 19px;
+  padding-top: 10px;
+}
+/* .jumbotron-title {
   color: #00f3ff;
   padding-bottom: 10px;
   font-weight: 800;
@@ -141,12 +159,12 @@ body {
   font-size: 19px;
   margin-top: -10%;
 }
-
+*/
 .intro img {
   display: block;
-  width: 40%;
+  width: 5em;
   margin: auto;
-  margin-top: -20%;
+  /* margin-top: -20%; */
 }
 
 /*----Page 2 (About section)----------*/
