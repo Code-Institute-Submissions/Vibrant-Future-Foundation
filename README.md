@@ -32,13 +32,37 @@ help people around the world.
 
 ## Features
 
-### 1. Navigation Bar
+### Navigation Bar
 
 The navigation bar is positioned at the top of each page, contains title and main menu of the website, which allows users to easily navigate and access all important pages
 and information regarding the website itself in just one click. Each menu in the navigation bar would display visual indication of the current open page by changing the colour
 compares to other menus.
 
-###  2. Home
+### Media Section
+
+This section is repeated at the end of the content section of every page which has sign up , social media links and contact options to the users. 
+   
+* _Sign-Up_ 
+
+This part provides access to the Foundation’s newsletter for upcoming events and interesting updates by clicking the ‘Sign Up’ button and the form would pop-up in the centre of
+the page to allow the users to submit their name and email address for the Foundation to send the newsletter directly to their personal email account.
+
+* _Social Media_
+
+This part allows the users to stay connected with the Foundation by following and subscribing the accounts of Foundation’s social media, such as Facebook, Twitter, YouTube and
+Instagram. The icons displayed of those social media in this page would also redirect the users to access those social media’s websites in just one click.
+
+* _Get in Touch_
+
+This part is allowing the users to directly contact the administrator of the Foundation for further information and any queries, such as donations, events, collaborations, etc.
+The users would be able to send emails and give phone calls which would accommodate more personal and customize information, support, aids and even discussions related to the activities perform
+by the Foundation. 
+
+### Footer
+
+The footer is positioned at the bottom of the each page and contains remark and copyright of the website to the developer.
+
+###  1. Home
 
 **Background Image**
 
@@ -53,11 +77,8 @@ this website aim to attract as many users to involve and support to the charity 
 join now button will take users to the last page of the website where user will be able to see the form and form will pop up on the screen when user click on donate button which is created
 by using bootstrap modal.
 
-**Footer**
 
-The footer is positioned at the bottom of the page and contains remark and copyright of the website to the developer.
-
-### 3. Who We Are
+### 2. Who We Are
 
 **Section 1 – About Us**
 
@@ -87,24 +108,4 @@ different sources and benefactors.
 This part specifies the information about issues and cases raised within the targeted groups which lead to the best possible approaches taken to support and solve it by
 the Founders and any interested benefactors.*
 
-**_Section 4 – Media Section_**
-   
-* _Sign-Up_ 
 
-This part provides access to the Foundation’s newsletter for upcoming events and interesting updates by clicking the ‘Sign Up’ button and the form would pop-up in the centre of
-the page to allow the users to submit their name and email address for the Foundation to send the newsletter directly to their personal email account.
-
-* _Social Media_
-
-This part allows the users to stay connected with the Foundation by following and subscribing the accounts of Foundation’s social media, such as Facebook, Twitter, YouTube and
-Instagram. The icons displayed of those social media in this page would also redirect the users to access those social media’s websites in just one click.
-
-* _Get in Touch_
-
-This part is allowing the users to directly contact the administrator of the Foundation for further information and any queries, such as donations, events, collaborations, etc.
-The users would be able to send emails and give phone calls which would accommodate more personal and customize information, support, aids and even discussions related to the activities perform
-by the Foundation. 
-
-**Footer**
-
-The footer is positioned at the bottom of the page and contains remark and copyright of the website to the developer.
