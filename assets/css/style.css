@@ -41,6 +41,8 @@ body {
   background: #66bae261;
   padding-right: 20px;
   padding-left: 20px;
+  border-bottom: dashed;
+  border-top: double;
 }
 /*-------------------Buttons-----------------*/
 
@@ -145,7 +147,7 @@ body {
   display: block;
   width: 5em;
   margin: auto;
- }
+}
 
 /*----Page 2 (About section)----------*/
 .heading-about {
@@ -469,18 +471,18 @@ input[type="submit"] {
 }
 
 /*----------@media -------*/
-@media screen and (max-width:576px) {
-.navbar .navbar-brand{
-font-size: 17px;
-}
+@media screen and (max-width: 576px) {
+  .navbar .navbar-brand {
+    font-size: 17px;
+  }
 
-.jumbotron-title{
+  .jumbotron-title {
     font-size: xx-large;
-}
+  }
 
-.small-text{
+  .small-text {
     font-size: 12px;
-}
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -503,16 +505,16 @@ font-size: 17px;
   }
 }
 
-@media screen and (max-width: 768px){
-    .clarity-col{
-        margin-bottom: 5%;
-    }
+@media screen and (max-width: 768px) {
+  .clarity-col {
+    margin-bottom: 5%;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 992px){
-    .action-sub-heading{
-        font-size: 100%;
-    }
+@media (min-width: 280px) and (max-width: 992px) {
+  .action-sub-heading {
+    font-size: 100%;
+  }
 }
 
 /*----------Animation -------*/
