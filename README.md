@@ -38,61 +38,73 @@ The navigation bar is positioned at the top of each page, contains title and mai
 and information regarding the website itself in just one click. Each menu in the navigation bar would display visual indication of the current open page by changing the colour
 compares to other menus.
 
-### 2. Home
+###  2. Home
 
-- **_Background Image_**
+**Background Image**
 
-  The background image of page 1-Home is carefully selected to show the users about fundamental issues and cases which are happening around the world. The bright boy in the background
-  image is the aim of the Foundation to keep putting the efforts, gathering the support and donations to change the world to be less intimidating for the vulnerable groups of people.
+The background image of page 1-Home is carefully selected to show the users about fundamental issues and cases which are happening around the world. The bright boy in the background
+image is the aim of the Foundation to keep putting the efforts, gathering the support and donations to change the world to be less intimidating for the vulnerable groups of people.
 
-- **_Contents_**
+**Contents**
 
-  This page 1-Home is the first page to welcome the users who access the website. The display contents are simple and concise which able to give a quick brief and look on the purposes
-  of the Foundation. The Foundation logo becomes the centre point of this page and follows by the slogan to inform the users about the key message which the Foundation is trying to deliver.
-  this website aim to attract as many users to involve and support to the charity therefore join now and donate button also added to the home page which allow user to join and donate easily.
-  join now button will take users to the last page of the website where user will be able to see the form and form will pop up on the screen when user click on donate button which is created
-  by using bootstrap modal.
+This page 1-Home is the first page to welcome the users who access the website. The display contents are simple and concise which able to give a quick brief and look on the purposes
+of the Foundation. The Foundation logo becomes the centre point of this page and follows by the slogan to inform the users about the key message which the Foundation is trying to deliver.
+this website aim to attract as many users to involve and support to the charity therefore join now and donate button also added to the home page which allow user to join and donate easily.
+join now button will take users to the last page of the website where user will be able to see the form and form will pop up on the screen when user click on donate button which is created
+by using bootstrap modal.
 
-- **_Footer_**
+**Footer**
 
-  The footer is positioned at the bottom of the page and contains remark and copyright of the website to the developer.
+The footer is positioned at the bottom of the page and contains remark and copyright of the website to the developer.
 
 ### 3. Who We Are
 
-   - **_Section 1 – About Us_**
+**Section 1 – About Us**
 
-    The first section of page 2-Who We Are is to inform the users about the background and the purpose of establishing the Foundation. This section serves as introduction for the
-    users to learn about the journey of establishing the Foundation and the basic principles believe by the Founders and their aspirations to support the targeted communities and societies.
-    In addition, this section gives process glimpse of forming the logo and slogan show in the page 1-Home and explain the important meaning behind the selected colours of the final logo for
-    the Foundation.
+The first section of page 2-Who We Are is to inform the users about the background and the purpose of establishing the Foundation. This section serves as introduction for the
+users to learn about the journey of establishing the Foundation and the basic principles believe by the Founders and their aspirations to support the targeted communities and societies.
+In addition, this section gives process glimpse of forming the logo and slogan show in the page 1-Home and explain the important meaning behind the selected colours of the final logo for
+the Foundation.
 
-   - **_Section 2 – Meet the Founders_**
+**Section 2 – Meet the Founders**
 
-    The second section of page 2-Who We Are introduce the Founders to the users and letting the users to get to know the people who have developed and establishing the Foundation until now. 
-    This section shows some details of the Founders, such as photos, names and countries of residency to allow the users to be familiarized themselves with the Founders.
+The second section of page 2-Who We Are introduce the Founders to the users and letting the users to get to know the people who have developed and establishing the Foundation until now. 
+This section shows some details of the Founders, such as photos, names and countries of residency to allow the users to be familiarized themselves with the Founders.
 
-   - **_Section 3 – Clarity_**
+**Section 3 – Clarity**
 
-    *Our Coverage - This part gives information of the area coverage of the support and aid provide by the Foundation.*
+* _Our Coverage_
 
-    *Our Target - This part gives information of the target groups, communities and societies where the Foundation would provide the support and helps which have been gathered from various
-    different sources and benefactors.
+This part gives information of the area coverage of the support and aid provide by the Foundation.*
 
-    *Our Approach - This part specifies the information about issues and cases raised within the targeted groups which lead to the best possible approaches taken to support and solve it by
-    the Founders and any interested benefactors.*
+* _Our Target_
 
-   - **_Section 4 – Media Section_**
+This part gives information of the target groups, communities and societies where the Foundation would provide the support and helps which have been gathered from various
+different sources and benefactors.
+
+* _Our Approach_
+
+This part specifies the information about issues and cases raised within the targeted groups which lead to the best possible approaches taken to support and solve it by
+the Founders and any interested benefactors.*
+
+**_Section 4 – Media Section_**
    
-    *Sign-Up  -  This part provides access to the Foundation’s newsletter for upcoming events and interesting updates by clicking the ‘Sign Up’ button and the form would pop-up in the centre of
-    the page to allow the users to submit their name and email address for the Foundation to send the newsletter directly to their personal email account.*
+* _Sign-Up_ 
 
-   *Social Media - This part allows the users to stay connected with the Foundation by following and subscribing the accounts of Foundation’s social media, such as Facebook, Twitter, YouTube and
-    Instagram. The icons displayed of those social media in this page would also redirect the users to access those social media’s websites in just one click.*
+This part provides access to the Foundation’s newsletter for upcoming events and interesting updates by clicking the ‘Sign Up’ button and the form would pop-up in the centre of
+the page to allow the users to submit their name and email address for the Foundation to send the newsletter directly to their personal email account.
 
-   *Get in Touch - This part is allowing the users to directly contact the administrator of the Foundation for further information and any queries, such as donations, events, collaborations, etc.
-    The users would be able to send emails and give phone calls which would accommodate more personal and customize information, support, aids and even discussions related to the activities perform
-    by the Foundation.*
+* _Social Media_
 
-  - **_Footer_**
+This part allows the users to stay connected with the Foundation by following and subscribing the accounts of Foundation’s social media, such as Facebook, Twitter, YouTube and
+Instagram. The icons displayed of those social media in this page would also redirect the users to access those social media’s websites in just one click.
 
-    The footer is positioned at the bottom of the page and contains remark and copyright of the website to the developer.
+* _Get in Touch_
+
+This part is allowing the users to directly contact the administrator of the Foundation for further information and any queries, such as donations, events, collaborations, etc.
+The users would be able to send emails and give phone calls which would accommodate more personal and customize information, support, aids and even discussions related to the activities perform
+by the Foundation. 
+
+**Footer**
+
+The footer is positioned at the bottom of the page and contains remark and copyright of the website to the developer.
