@@ -38,9 +38,9 @@ body {
 #content-2,
 #content-3,
 #content-4 {
-    background: #66bae261;
-    padding-right: 20px;
-    padding-left: 20px;
+  background: #66bae261;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 /*-------------------Buttons-----------------*/
 
@@ -52,7 +52,6 @@ body {
   margin-right: 3%;
   margin-left: 3%;
   height: 3em;
-  /* width: 18%; */
   border: 2px solid var(--secondary);
   border-radius: 10px;
   font-size: 18px;
@@ -90,8 +89,8 @@ body {
   margin-right: 5px;
 }
 
-.navbar-light .navbar-nav .active .nav-link{
-    color: blue;
+.navbar-light .navbar-nav .active .nav-link {
+  color: blue;
 }
 
 .navbar .navbar-brand {
@@ -130,12 +129,12 @@ body {
   color: #00f3ff;
   padding-bottom: 10px;
   font-weight: 800;
-   left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
-.small-text{
+.small-text {
   color: #d9c8bc;
   font-weight: 700;
   font-size: 19px;
@@ -150,8 +149,8 @@ body {
 }
 
 /*----Page 2 (About section)----------*/
-.heading-about{
-padding-top: 3%;
+.heading-about {
+  padding-top: 3%;
 }
 
 .sub-heading-about {
@@ -274,8 +273,8 @@ padding-top: 3%;
 }
 
 /*----------Page 3 -------*/
-.heading-main{
-    padding-top: 3%;
+.heading-main {
+  padding-top: 3%;
 }
 
 .textAndImage {
@@ -386,7 +385,7 @@ padding-top: 3%;
   padding: 0 5% 0 5%;
 }
 
-/*------------Page 4---------*/
+/*------------Page 4 (image)---------*/
 #appeal {
   position: relative;
   height: 700px;
@@ -401,34 +400,27 @@ padding-top: 3%;
   padding: 20px;
 }
 
-.top-center {
-  display: none;
-  /* top: 12%;
-  position: absolute;
-  left: 30%;
-  color: #f8f9fa; */
-}
-
 /*-------------Page 4 (Form)-------*/
-.joinUsForm{
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 25%;
+.joinUsForm {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 25%;
 }
 
-input[type=text], [type=tel] {
+input[type="text"],
+[type="tel"] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px; 
-  box-sizing: border-box; 
+  border-radius: 4px;
+  box-sizing: border-box;
   margin-top: 6px;
-  margin-bottom: 16px; 
-  resize: vertical
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #4CAF50;
+input[type="submit"] {
+  background-color: #4caf50;
   color: white;
   box-sizing: border-box;
   padding: 12px 20px;
