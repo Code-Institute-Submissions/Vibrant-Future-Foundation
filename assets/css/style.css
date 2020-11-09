@@ -95,16 +95,10 @@ body {
 }
 
 .navbar .navbar-brand {
-  color: #7c154c;
+  color: #140ab1;
   font-weight: 600;
   text-shadow: 2px 2px 2px rgb(0 14 255 / 62%);
 }
-/* .navbar .navbar-brand {
-  color: #fafafa;
-  font-weight: 600;
-  font-size: xx-large;
-  text-shadow: 2px 2px 2px rgb(0 14 255 / 62%);
-} */
 
 /*--------------------------Page 1 ---------*/
 .hero-container {
@@ -138,34 +132,18 @@ body {
   margin-bottom: 0;
 }
 
-.intro {
+.small-text {
   color: #fff5ee;
   font-weight: 700;
   font-size: 19px;
   padding-top: 10px;
 }
-/* .jumbotron-title {
-  color: #00f3ff;
-  padding-bottom: 10px;
-  font-weight: 800;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
 
-.small-text {
-  color: #d9c8bc;
-  font-weight: 700;
-  font-size: 19px;
-  margin-top: -10%;
-}
-*/
 .intro img {
   display: block;
   width: 5em;
   margin: auto;
-  /* margin-top: -20%; */
-}
+ }
 
 /*----Page 2 (About section)----------*/
 .heading-about {
@@ -492,6 +470,21 @@ input[type="submit"] {
 }
 
 /*----------@media -------*/
+@media screen and (max-width:576px) {
+.navbar .navbar-brand{
+font-size: x-small;
+}
+
+.jumbotron-title{
+    font-size: xx-large;
+}
+
+.small-text{
+    font-size: 12px;
+}
+}
+
+
 @media screen and (max-width: 576px) {
   .btn-home {
     width: fit-content;
