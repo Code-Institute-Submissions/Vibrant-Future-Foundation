@@ -28,13 +28,23 @@ help people around the world.
 - As a user of this site, I want to be able to contact the founders or administrator to answer any query i may have
 
 ## Features
-The navigation bar is fixed to the top of the pages with links to each section, so all pages can be easily accessed using the navigation links from anywhere on the site. All navigation links have hoover effect 
-and active class on them so that users can easily understand on which page currently they are looking at.
 
-## Home 
-The Home section features a full browser height background image to capture the users attention to the charity page . Name of the Charity which is also the title of the page is 
-overlayed on the image in the centre of the page. a unique slogan and logo of charity which i have created myself using powerpoint also overlayed on the image , aim of logo and 
-slogan is to make users more curious about the page so more users will be attracted. Main aim of this project is to  make as many users aware about the charity and encourage 
-to involve and support the charity therefore  Join now and donate button also added to home page using button class so that users will be able to involve, donate  and 
-be part of charity easily. flashing animation effect used to style donate button to make the button more eye cathy to the users which may help charity to raise fund.
-small footer section can be seen at the bootom of the hompage which only contains copyright message and appear across all pages on the site.
+- Navigation Bar
+The navigation bar is positioned at the top of each page, contains title and main menu of the website, which allows users to easily navigate and access all important pages 
+and information regarding the website itself in just one click. Each menu in the navigation bar would display visual indication of the current open page by changing the colour 
+compares to other menus.
+
+- Home 
+1. Background Image
+The background image of page 1-Home is carefully selected to show the users about fundamental issues and cases which are happening around the world. The bright boy in the background 
+image is the aim of the Foundation to keep putting the efforts, gathering the support and donations to change the world to be less intimidating for the vulnerable groups of people.
+
+2. Contents
+This page 1-Home is the first page to welcome the users who access the website. The display contents are simple and concise which able to give a quick brief and look on the purposes 
+of the Foundation. The Foundation logo becomes the centre point of this page and follows by the slogan to inform the users about the key message which the Foundation is trying to deliver.
+this website aim to attract as many users to involve and support to the charity therefore join now and donate button also added to the home page which allow user to join and donate easily.
+join now button will take users to the last page of the website where user will be able to see the form and form will pop up on the screen when user click on donate button which is created 
+by using bootstrap modal.
+
+3. Footer
+The footer is positioned at the bottom of each page and contains remark and copyright of the website to the developer.
