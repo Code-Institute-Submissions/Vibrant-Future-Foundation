@@ -15,7 +15,7 @@ Also, share the information on how we help people and no matter what the size of
 be such a valuable and appreciated act of kindness so that more people will engage and be attracted with our aim and we can extensively 
 help people around the world.
 
-## **User Stories **
+## User Stories 
 
 - As a user of this site , I want to easily navigate the site across all pages
 - As a user of this site , I want to be able to understand the history of this foundation 
@@ -27,11 +27,11 @@ help people around the world.
 - As a user of this site, I want to get information on future activities on charitable or voluntering activities
 - As a user of this site, I want to be able to contact the founders or administrator to answer any query i may have
 
-## **Features**
+## Features
 The navigation bar is fixed to the top of the pages with links to each section, so all pages can be easily accessed using the navigation links from anywhere on the site. All navigation links have hoover effect 
 and active class on them so that users can easily understand on which page currently they are looking at.
 
-## **Home **
+## Home 
 The Home section features a full browser height background image to capture the users attention to the charity page . Name of the Charity which is also the title of the page is 
 overlayed on the image in the centre of the page. a unique slogan and logo of charity which i have created myself using powerpoint also overlayed on the image , aim of logo and 
 slogan is to make users more curious about the page so more users will be attracted. Main aim of this project is to  make as many users aware about the charity and encourage 
