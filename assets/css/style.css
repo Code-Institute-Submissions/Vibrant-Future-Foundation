@@ -371,11 +371,8 @@ body {
   text-align: center;
 }
 
+.heading-mission,
 .heading-vision {
-  padding-top: 10%;
-}
-
-.heading-mission {
   padding-top: 1%;
 }
 
@@ -517,6 +514,7 @@ font-size: 17px;
         font-size: 100%;
     }
 }
+
 /*----------Animation -------*/
 .flashing-effect {
   animation: flashing 0.5s linear infinite;
