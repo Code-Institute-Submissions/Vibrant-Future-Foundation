@@ -76,22 +76,18 @@
         <div class="row">
           <div class="col">
             <div class="intro">
-              <img src="assets/images/logo-sun.png" alt="logo"/>
+              <img src="assets/images/logo-sun.png" alt="logo" />
             </div>
             <section class="jumotron text-center">
               <h1 class="jumbotron-title">
-                Welcome<br />
+                Welcome<br/>
                 to
               </h1>
               <p class="intro small-text">
                 Let's make a difference, hands-in-hand together
               </p>
-              <a href="join.html"
-                ><button type="button" class="btn btn-success btn-home">
-                  Join Us!
-                </button></a
-              >
-              <button
+              <a href="join.html"><button type="button" class="btn btn-success btn-home">Join Us!</button></a>
+            <button
                 type="button"
                 class="btn btn-primary btn-home"
                 data-toggle="modal"
@@ -155,7 +151,7 @@
                   class="form-control"
                   placeholder="Enter Your Full Name"
                   id="fullname"
-                  required
+                  name="fullname" required
                 />
                 <small class="form-text text-muted"
                   >We'll never share your personal details with anyone
@@ -169,8 +165,7 @@
                   class="form-control"
                   placeholder="Enter Your Email"
                   id="email"
-                  required
-                  name="email"
+                  name="email" required
                 />
               </div>
               <div class="form-group donation-text">
@@ -180,20 +175,18 @@
                   class="form-control"
                   placeholder="Country Where You Currently Live"
                   id="country"
-                  requird
-                  name="country"
+                  name="country" required
                 />
               </div>
               <div class="form-group donation-text">
-                <label for="contact">Contact Number</label>
+                <label for="phone_num">Contact Number</label>
                 <input
                   type="tel"
                   class="form-control"
                   placeholder="Mobile/Landline No."
-                  id="phone"
-                  name="phone"
+                  id="phone_num"
+                  name="phone_num" required
                   pattern="[0-9]{11}"
-                  required
                 />
               </div>
 
@@ -203,7 +196,7 @@
                   >Please select one</small
                 >
                 <select name="process" id="process" required>
-                  <option value="nothing">-</option>
+                  <option value="">--</option>
                   <option value="one-off donation">One-Off Donation</option>
                   <option value="monthly donation">Monthly Donation</option>
                   <option value="yearly donation">Yearly Donation</option>
