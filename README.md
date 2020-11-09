@@ -139,6 +139,17 @@ targets. The Foundation has made it clear that the principles of visibility and 
 This third section of page 3-What We Do is to brief the users on the vision and mission of the Foundation. This allows users to get closer look towards the important of all the initiatives and 
 activities specified in previous sections.
 
+### 4. Join Us
+
+**Section 1 – Image**
+
+The image is specially designed to convey the important message of “Together we change for vibrant future” to encourage and become reminder of great outcomes which can be achieved together by the Founders and the users as benefactors by continuing the cycle of kindness and contributions as well as spreading love to the people, communities, societies and the world. 
+
+**Section 2 – Join Us Form**
+
+The form allows the users to register to the Foundation as members and able to stay connected and get updates regarding any activities and events attended or organized by the Foundation. Using this form, the users would be categorized as active users, therefore able to get notification to contribute towards the donations for good cause through the Foundation. There are several fields in the form which can be filled-in to collect personal information about the users, such as first name, last name, email address, phone number, country and interests.
 
 
 
+
+ 
