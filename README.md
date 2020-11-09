@@ -28,7 +28,7 @@ help people around the world.
 - As a user of this site, I want to get information on future activities on charitable or voluntering activities
 - As a user of this site, I want to be able to contact the founders or administrator to answer any query i may have
 
---
+---
 
 ## Features
 
@@ -96,7 +96,7 @@ This section shows some details of the Founders, such as photos, names and count
 
 * _Our Coverage_
 
-This part gives information of the area coverage of the support and aid provide by the Foundation.*
+This part gives information of the area coverage of the support and aid provide by the Foundation.
 
 * _Our Target_
 
@@ -106,6 +106,39 @@ different sources and benefactors.
 * _Our Approach_
 
 This part specifies the information about issues and cases raised within the targeted groups which lead to the best possible approaches taken to support and solve it by
-the Founders and any interested benefactors.*
+the Founders and any interested benefactors.
+
+### 3. What We Do
+
+**Section 1- Small Steps, Big Impacts**
+
+This first section of page 3-What We Do is to discuss the philosophy, various initiatives and involvements undertaken by the Founders. The title of this section has made it clear that
+regardless how small the support and donations, those can actually bring massive impacts to tackle any social issues and provide great aids to the vulnerable people in various locations.
+With this in mind, those support provided would eventually able to change someone’s life for a better and brighter future which might help them to dream and have hopes again to continue their lives.
+
+**Section 2 – Activities**
+
+* _Vivacious Running_
+
+The image displayed is the exact representative of the activity which enjoys by the Founders and allow them to meet wider crowds on the local events. This local events are becoming 
+important milestones for the Foundation to introduce and attract various backgrounds to contribute and collaborate as well as raise awareness on critical issues and cases identified. 
+Benefits and important message of running are being specified using the overlay text on the image itself.
+
+* _Super Cycling_
+The image displayed is the exact representative of the activity which enjoys by the Founders as a hobby and get together activity since the early day of the establishment of the Foundation.
+ With the overlay text of the image explaining the health benefits of cycling, the Founders are trying to encourage more people to take part in the reduction of pollutions and global warming.
+	
+* _Fund as We Go_
+
+This is one of the most important and critical activities executed by the Founders where the donations gathered or collected are being effectively utilized and shared to help the vulnerable 
+targets. The Foundation has made it clear that the principles of visibility and transparency are the supreme keys to ensure the aids would reach to the appropriate people by adding the overlay
+ text on the displayed image.
+
+**Section 3 – Vision and Mission**
+
+This third section of page 3-What We Do is to brief the users on the vision and mission of the Foundation. This allows users to get closer look towards the important of all the initiatives and 
+activities specified in previous sections.
+
+
 
 
