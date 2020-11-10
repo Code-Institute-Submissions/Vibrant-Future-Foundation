@@ -308,6 +308,9 @@ body {
   margin-top: 20px;
 }
 
+/*-- code taken from youtube video of dcode  (https://www.youtube.com/watch?v=exb2ab72Xhs) 
+             and modified as per project requirement (start)--*/
+
 .image-overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.65);
@@ -321,8 +324,6 @@ body {
   opacity: 0;
   transition: opacity 0.25s;
 }
-
-/*-- concept of code taken from youtube video of dcode (start)--*/
 
 .image-overlay-blur {
   backdrop-filter: blur(12px);
@@ -341,7 +342,8 @@ body {
   transform: translateY(0);
 }
 
-/*-- concept of code taken from youtube video of decode (End)--*/
+/*--code taken from youtube video of decode (https://www.youtube.com/watch?v=exb2ab72Xhs)
+          and modified as per project requirement (End)--*/
 
 .action-sub-heading {
   color: #fafafa;
@@ -517,25 +519,3 @@ input[type="submit"] {
   }
 }
 
-/*----------Animation -------*/
-.flashing-effect {
-  animation: flashing 0.5s linear infinite;
-}
-
-@keyframes flashing {
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0.2%;
-  }
-  50% {
-    opacity: 0.3;
-  }
-  75% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
