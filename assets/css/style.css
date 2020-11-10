@@ -62,10 +62,10 @@ body {
 .btn--dot {
   border: 2px solid var(--secondary);
   border-radius: 10px;
-  height: 40px;
-  width: 80px;
-  padding: 0;
-  transform: translate(180px, 15px);
+  height: fit-content;
+  width: fit-content;
+  font-size: 90%;
+  margin-top: 5%;
 }
 
 .btn--signUp {
@@ -100,9 +100,8 @@ body {
 .navbar .navbar-brand {
   color: #140ab1;
   font-weight: 600;
-  font-size: xx-large;
-  text-shadow: 2px 2px 2px rgb(0 14 255 / 62%);
-}
+  font-size: x-large;
+  }
 
 /*--------------------------Page 1 ---------*/
 .hero-container {
@@ -139,13 +138,13 @@ body {
 .small-text {
   color: #f9ba8e;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 21px;
   padding-top: 10px;
 }
 
 .intro img {
   display: block;
-  width: 5em;
+  width: 7em;
   margin: auto;
 }
 
@@ -446,7 +445,7 @@ input[type="submit"] {
 
 /*-----------------Modal-------*/
 .modal-content {
-  background-color: var(--danger);
+  background-color: aliceblue;
 }
 
 .donation-text {
@@ -455,7 +454,7 @@ input[type="submit"] {
 
 .donation-sub,
 .modal-sub {
-  font-size: 1.25em;
+  font-size: 1em;
   text-align: center;
   margin-top: 5%;
 }
@@ -472,25 +471,46 @@ input[type="submit"] {
   color: #f8f9fa;
 }
 
-/*----------@media -------*/
+/*----------------------------------------@media---------------------------------*/
 @media screen and (max-width: 576px) {
   .navbar .navbar-brand {
     font-size: 15px;
   }
 
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+   }
+
   .jumbotron-title {
-    font-size: xx-large;
+    font-size: x-large;
   }
 
   .small-text {
     font-size: 12px;
   }
-}
-
-@media screen and (max-width: 576px) {
   .btn-home {
     width: fit-content;
     height: fit-content;
+  }
+
+  .btn-info{
+   margin-bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .clarity-col {
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+.action-heading{
+    font-size: 95%;
+}
+  .action-sub-heading {
+    font-size: 80%;
   }
 }
 
@@ -512,23 +532,7 @@ input[type="submit"] {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .clarity-col {
-    margin-bottom: 5%;
-  }
-}
 
-/* @media screen and (max-width: 420px){
-  .action-sub-heading {
-    font-size: 80%;
-  }
-} */
-@media screen and (max-width: 992px) {
-.action-heading{
-    font-size: 95%;
-}
-  .action-sub-heading {
-    font-size: 80%;
-  }
-}
+
+
 
