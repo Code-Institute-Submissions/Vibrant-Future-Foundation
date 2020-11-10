@@ -35,6 +35,12 @@ body {
   border: 1px solid #ac9f9f;
 }
 
+.block-divider-white{
+    width: 50px;
+    border: 1px solid whitesmoke;
+    margin-top: 
+}
+
 #content-2,
 #content-3,
 #content-4 {
@@ -43,7 +49,7 @@ body {
   padding-left: 20px;
   border-bottom: dashed;
   border-top: double;
-} 
+}
 /*-------------------Buttons-----------------*/
 
 .btn-info {
@@ -101,7 +107,7 @@ body {
   color: #140ab1;
   font-weight: 600;
   font-size: x-large;
-  }
+}
 
 /*--------------------------Page 1 ---------*/
 .hero-container {
@@ -385,12 +391,12 @@ body {
 }
 
 /*------------Page 4 (image)---------*/
-#appeal {
+.appeal {
   position: relative;
   height: 700px;
   width: 100%;
   border-radius: 5px;
-  background: url(../images/join.png);
+  background: url(../images/join1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -403,7 +409,7 @@ body {
 .joinUsForm {
   width: 100%;
   margin: 0 auto;
-  margin-top: 25%;
+  margin-top: 17%;
 }
 
 input[type="text"],
@@ -477,9 +483,9 @@ input[type="submit"] {
     font-size: 15px;
   }
 
-.navbar-light .navbar-nav .nav-link {
+  .navbar-light .navbar-nav .nav-link {
     font-size: 14px;
-   }
+  }
 
   .jumbotron-title {
     font-size: x-large;
@@ -493,10 +499,11 @@ input[type="submit"] {
     height: fit-content;
   }
 
-  .btn-info{
-   margin-bottom: 10%;
+  .btn-info {
+    margin-bottom: 10%;
   }
 }
+
 
 @media screen and (max-width: 768px) {
   .clarity-col {
@@ -506,9 +513,9 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 992px) {
-.action-heading{
+  .action-heading {
     font-size: 95%;
-}
+  }
   .action-sub-heading {
     font-size: 80%;
   }
@@ -526,13 +533,8 @@ input[type="submit"] {
     margin-bottom: 3%;
   }
 
-  .appeal-container{
-      margin-top: 10%;
+  .appeal-container {
+    margin-top: 10%;
     margin-bottom: 5%;
   }
 }
-
-
-
-
-
