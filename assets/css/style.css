@@ -43,7 +43,7 @@ body {
   padding-left: 20px;
   border-bottom: dashed;
   border-top: double;
-}
+} 
 /*-------------------Buttons-----------------*/
 
 .btn-info {
@@ -475,7 +475,7 @@ input[type="submit"] {
 /*----------@media -------*/
 @media screen and (max-width: 576px) {
   .navbar .navbar-brand {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .jumbotron-title {
@@ -505,6 +505,11 @@ input[type="submit"] {
     margin-top: 6%;
     margin-bottom: 3%;
   }
+
+  .appeal-container{
+      margin-top: 10%;
+    margin-bottom: 5%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -513,9 +518,17 @@ input[type="submit"] {
   }
 }
 
-@media (min-width: 280px) and (max-width: 992px) {
+/* @media screen and (max-width: 420px){
   .action-sub-heading {
-    font-size: 100%;
+    font-size: 80%;
+  }
+} */
+@media screen and (max-width: 992px) {
+.action-heading{
+    font-size: 95%;
+}
+  .action-sub-heading {
+    font-size: 80%;
   }
 }
 

@@ -150,6 +150,21 @@ The image is specially designed to convey the important message of “Together w
 The form allows the users to register to the Foundation as members and able to stay connected and get updates regarding any activities and events attended or organized by the Foundation. Using this form, the users would be categorized as active users, therefore able to get notification to contribute towards the donations for good cause through the Foundation. There are several fields in the form which can be filled-in to collect personal information about the users, such as first name, last name, email address, phone number, country and interests.
 
 
+## Bugfix
 
+**While inspecting on Ipad pro display using dev tool, most of the content shrink and resulted excess white space below the footer section of 'Who we are' and 'Join Us' page.**
 
- 
+* Issue was fixed by using media query , min-width and max-width value used in media query to target only iPad Pro display.
+
+**There was also an excess white space on top and bottom of content section of all pages except home page while display switched to iPad Pro.**
+
+* Issue was fixed by adding border-top and border-bottom value to all content container in style.css : border-top value set to double and border-bottom value set to dashed for all id 
+relevenat to the content container of the pages which fixed an issue.
+
+**Text overflow issue on 'what we do' page as text overlay on all 3 images overflown from image while switching device to small screen.** 
+
+* Issue was fixed by using media query - font size of the text reduced for medium and extra small device using media query which fixed an issue.
+
+**Margin issue with phone and mail icon infront of the contact number and email address on  media section of 'Join Us' page which cause icon and text very close and no space between, same codes were used on all pages and no similar issue noticed however only 'Join us' page shown this issue**
+
+* mr-2 class to the i element was missing on join.html page, issue fixed once added mr-2 class.
