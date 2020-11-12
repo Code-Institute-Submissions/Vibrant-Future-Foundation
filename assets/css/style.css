@@ -38,7 +38,7 @@ body {
 .block-divider-white{
     width: 50px;
     border: 1px solid whitesmoke;
-    margin-top: 
+    margin-top: -1%
 }
 
 #content-2,
@@ -47,8 +47,8 @@ body {
   background: #66bae261;
   padding-right: 20px;
   padding-left: 20px;
-  border-bottom: dashed;
-  border-top: double;
+  border-top: 2px solid #72636b;
+  border-bottom: double;
 }
 /*-------------------Buttons-----------------*/
 
@@ -60,7 +60,7 @@ body {
 .btn-home {
   margin-right: 3%;
   margin-left: 3%;
-  height: 3em;
+  height: auto;
   border: 2px solid var(--secondary);
   border-radius: 10px;
   font-size: 18px;
@@ -442,7 +442,7 @@ input[type="submit"] {
   background-color: #2098d1 !important;
   color: #fff5ee;
   margin-top: -3px;
-  border-top: 3px solid #72636b;
+  border-top: 2px solid #72636b;
 }
 
 .footer-text {
@@ -504,6 +504,11 @@ input[type="submit"] {
   }
 }
 
+@media (min-width: 768px) and (max-width: 768px){
+    .media-row{
+        margin-bottom: 3%;
+    }
+}
 
 @media screen and (max-width: 768px) {
   .clarity-col {
@@ -530,11 +535,12 @@ input[type="submit"] {
   }
   .media-row {
     margin-top: 6%;
-    margin-bottom: 3%;
+    margin-bottom: 4%;
   }
 
   .appeal-container {
-    margin-top: 10%;
-    margin-bottom: 5%;
+    margin-top: 16%;
+    margin-bottom: 16%;
   }
 }
+

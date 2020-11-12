@@ -152,6 +152,10 @@ The form allows the users to register to the Foundation as members and able to s
 
 ## Bugfix
 
+**Text inside the Join button on the Home page had an issue as text not align properly , same class was used and same style applied in css for both 'Join now' and 'Donate' button however donate button did not show any issue and only join us button shown an issue.**
+
+*Issue fixed by changing height of button to auto.
+
 **While inspecting on Ipad pro display using dev tool, most of the content shrink and resulted excess white space below the footer section of 'Who we are' and 'Join Us' page.**
 
 * Issue was fixed by using media query , min-width and max-width value used in media query to target only iPad Pro display.
@@ -168,3 +172,7 @@ relevenat to the content container of the pages which fixed an issue.
 **Margin issue with phone and mail icon infront of the contact number and email address on  media section of 'Join Us' page which cause icon and text very close and no space between, same codes were used on all pages and no similar issue noticed however only 'Join us' page shown this issue**
 
 * mr-2 class to the i element was missing on join.html page, issue fixed once added mr-2 class.
+
+**Slightly noticable whitespace below footer while switching display to iPad.**
+
+* Issue not ressolved.
