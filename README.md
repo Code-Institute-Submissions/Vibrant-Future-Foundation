@@ -152,11 +152,11 @@ The form allows the users to register to the Foundation as members and able to s
 
 ## Bugfix
 
-**Text inside the Join button on the Home page had an issue as text not align properly , same class was used and same style applied in css for both 'Join now' and 'Donate' button however donate button did not show any issue and only join us button shown an issue.**
+**Text inside the Join button on the Home page had an issue as text not align properly , same class was used and same style applied in css for both Join now and Donate button however donate button did not show any issue and only join us button shown an issue.**
 
 *Issue fixed by changing height of button to auto.
 
-**While inspecting on Ipad pro display using dev tool, most of the content shrink and resulted excess white space below the footer section of 'Who we are' and 'Join Us' page.**
+**While inspecting on Ipad pro display using dev tool, most of the content shrink and resulted excess white space below the footer section of Who we are and Join Us page.**
 
 * Issue was fixed by using media query , min-width and max-width value used in media query to target only iPad Pro display.
 
@@ -177,6 +177,7 @@ relevenat to the content container of the pages which fixed an issue.
 
 * Issue not ressolved.
 
-**while ran code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator), Error message appeared on backdrop-filter property of image-overlay-blur class which used in 'info.html' for 'what we do' page**
-![error message on code validator](assets/images/code.validation.png)
-*issue not ressolved , reaced out to tutor support as well and tutor advised that this is false result from validator as backdrop-filter property is fairly new and validator has not updated yet to look for this rule.
+**while ran code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator), Error message appeared on backdrop-filter property of image-overlay-blur class which used in info.html for what we do page**
+![error message screenshot](assets/images/code-validation-error.png)
+
+*issue not ressolved , reached out to tutor support as well and tutor had advised that this could be false result from validator as backdrop-filter property is fairly new and validator has probably not updated yet to look for this rule.
