@@ -114,10 +114,12 @@ body {
   height: 100vh;
   background: url("../images/child.jpg") no-repeat;
   background-position: center;
+  /*------- Code taken from Code institute's Whiskey drop page (start)----*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+   /*------- Code taken from Code institute's Whiskey drop page (end)----*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,6 +159,7 @@ body {
 /*----Page 2 (About section)----------*/
 .heading-about {
   padding-top: 3%;
+  margin-top: 60px;
 }
 
 .sub-heading-about {
@@ -543,4 +546,3 @@ input[type="submit"] {
     margin-bottom: 16%;
   }
 }
-
