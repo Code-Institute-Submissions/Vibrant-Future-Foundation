@@ -173,6 +173,10 @@ relevenat to the content container of the pages which fixed an issue.
 
 * mr-2 class to the i element was missing on join.html page, issue fixed once added mr-2 class.
 
-**Slightly noticable whitespace below footer while switching display to iPad.**
+**Slightly noticable whitespace below footer on 'who we are page' while switching display to iPad , not sure if this is just an optical illusion or has some error**
 
 * Issue not ressolved.
+
+**while ran code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator), Error message appeared on backdrop-filter property of image-overlay-blur class which used in 'info.html' for 'what we do' page**
+![error message on code validator](assets/images/code.validation.png)
+*issue not ressolved , reaced out to tutor support as well and tutor advised that this is false result from validator as backdrop-filter property is fairly new and validator has not updated yet to look for this rule.
