@@ -21,7 +21,7 @@ help people around the world.
 - As a user of this site , I want to easily navigate the site across all pages
 - As a user of this site , I want to be able to understand the history of this foundation
 - As a user of this site , I want to know or get familier with the founders about their motivations to start this foundation
-- As a user of this site , I want to know mission and vission of Foundation
+- As a user of this site , I want to know mission and vision of Foundation
 - As a user of this site, I want inspiration and ideas on what I can do to make a difference to someone's life by doing small help
 - As a user of this site, I want to easily Join or Sign-Up as a member
 - As a user of this site, I want to be able to donate for the good acts of this foundation
@@ -44,11 +44,64 @@ the site correctly, Chelsea Market font used for all the headings and PT sans fo
 
 - As a initial process of the project design , wireframes were created for Desktop, iPad and Mobile screen sizes using [Balsamiq](https://balsamiq.com/).
 
-- * Desktop Wireframe - [View](assets/images/wireframe-desktop.pdf)
+  * Desktop Wireframe - [View](assets/images/wireframe-desktop.pdf)
 
-- * iPad Wireframe - [View](assets/images/wireframe-ipad.pdf)
+  * iPad Wireframe - [View](assets/images/wireframe-ipad.pdf)
 
-- * Mobile Wireframe - [View](assets/images/wireframe-mobile.pdf)
+  * Mobile Wireframe - [View](assets/images/wireframe-mobile.pdf)
+
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries, Programs and Resources Used
+
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on nav-items of navbar to add the wobble bottom transitions while being hovered over.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google font was used to embed the Chelsea Market and PT Sans font which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used to add icons for aesthetic and UX purposes.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive.
+1. [Popper.js](https://popper.js.org/) 
+    - Popper.js was used for navbar and modal
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [Gitpod](https://www.gitpod.io/)
+    - Gitpod was used as IDE for local development.
+1. [GitHub:](https://github.com/)
+    - GitHub was used to store the projects code after being pushed from Gitpod.
+1. [Github Pages](https://pages.github.com/)
+    - Github pages were used for deployment of the website
+1. [HTML Formatter](https://htmlformatter.com/) 
+    - HTML formatter was used to format HTML code
+
+## **Testing**
+Testing was carried out throughout the building process to ensure site was responsive at relevant breakpoints using [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools).
+The below tools were used at various points throughout the build:
+
+- [W3C Markup Validation](https://validator.w3.org/#validate_by_input) 
+  - W3C Markup Validation was used throughout the process to identify validate HTML
+- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) 
+  - W3C CSS Validation was used to vaildate CSS Code
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln/related) 
+  - Unicorn Revelar tool was used to identify any overflow issues
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+  - Lighthouse was used to test the performance and loading speed of the website
+
+
+**Manual Testing**
+
+*Navigation Bar
+
+ - 
 
 ## Features
 
