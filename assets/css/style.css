@@ -38,7 +38,7 @@ body {
 .block-divider-white{
     width: 50px;
     border: 1px solid whitesmoke;
-    margin-top: -1%
+    margin-top: 2px;
 }
 
 #content-2,
@@ -505,6 +505,14 @@ input[type="submit"] {
   }
 }
 
+.action-heading {
+    font-size: 95%;
+  }
+  .action-sub-heading {
+    font-size: 99%;
+  }
+
+
 input[type="text"],
 [type="tel"] {
     padding: 15px;
@@ -524,12 +532,12 @@ input[type="text"],
   }
 }
 
-@media screen and (max-width: 992px) {
-  .action-heading {
+@media (min-width: 768px) and (max-width: 992px){
+    .action-heading {
     font-size: 95%;
   }
   .action-sub-heading {
-    font-size: 80%;
+    font-size: 95%;
   }
 }
 

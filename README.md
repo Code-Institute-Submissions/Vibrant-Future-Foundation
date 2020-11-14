@@ -181,6 +181,8 @@ different sources and benefactors.
 This part specifies the information about issues and cases raised within the targeted groups which lead to the best possible approaches taken to support and solve it by
 the Founders and any interested benefactors.
 
+**Section 4 - Media Section**
+
 ### 3. What We Do
 
 **Section 1- Small Steps, Big Impacts**
@@ -212,45 +214,45 @@ targets. The Foundation has made it clear that the principles of visibility and 
 This third section of page 3-What We Do is to brief the users on the vision and mission of the Foundation. This allows users to get closer look towards the important of all the initiatives and 
 activities specified in previous sections.
 
+**Section 4 - Media Section**
+
 ### 4. Join Us
 
 **Section 1 – Image**
 
-The image is specially designed to convey the important message of “Together we change for vibrant future” to encourage and become reminder of great outcomes which can be achieved together by the Founders and the users as benefactors by continuing the cycle of kindness and contributions as well as spreading love to the people, communities, societies and the world. 
+The image is specially designed to convey the important message of Together we change for vibrant future to encourage and become reminder of great outcomes which can be achieved together by the Founders and the users as benefactors by continuing the cycle of kindness and contributions as well as spreading love to the people, communities, societies and the world.
+Image on this section set to be hidden on mobile devices to ensure users do not have to spend extra time scroll further down on the page to complete the form to join.
 
 **Section 2 – Join Us Form**
 
 The form allows the users to register to the Foundation as members and able to stay connected and get updates regarding any activities and events attended or organized by the Foundation. Using this form, the users would be categorized as active users, therefore able to get notification to contribute towards the donations for good cause through the Foundation. There are several fields in the form which can be filled-in to collect personal information about the users, such as first name, last name, email address, phone number, country and interests.
 
+**Section 3 - Media Section**
 
-## Bugfix
 
-**Text inside the Join button on the Home page had an issue as text not align properly , same class was used and same style applied in css for both Join now and Donate button however donate button did not show any issue and only join us button shown an issue.**
+## Issues and Resolutions
 
-*Issue fixed by changing height of button to auto.
+#### The following issues were identified and ressolved throughout the build process.
 
-**While inspecting on Ipad pro display using dev tool, most of the content shrink and resulted excess white space below the footer section of Who we are and Join Us page.**
+  - Text inside the Join button on the Home page had an issue as text not align properly, same class was used and same style applied in css for both Join now and Donate button however donate button did not show any issue and only join us button shown an issue.
+    - Issue fixed by changing height of button to auto.
 
-* Issue was fixed by using media query , min-width and max-width value used in media query to target only iPad Pro display.
+  - While inspecting on Ipad pro display using dev tool, most of the content shrink and resulted excess white space below the footer section of Who we are and Join Us page.
+    - Issue was fixed by using media query , min-width and max-width value used in media query to target only iPad Pro display.
 
-**There was also an excess white space on top and bottom of content section of all pages except home page while display switched to iPad Pro.**
+  - There was also an excess white space on top and bottom of content section of all pages except home page while display switched to iPad Pro.
+    - Issue was fixed by adding border-top and border-bottom value to all content container in style.css : border-top value set to double and border-bottom value set to dashed for all id 
+    relevenat to the content container of the pages which fixed an issue.
 
-* Issue was fixed by adding border-top and border-bottom value to all content container in style.css : border-top value set to double and border-bottom value set to dashed for all id 
-relevenat to the content container of the pages which fixed an issue.
+  - Text overflow issue on what we do page as text overlay on all 3 images overflown from image while switching display to extra small screen size.
+    - Issue was fixed by using media query - font size of the text reduced for extra small screen size using media query, which fixed an issue.
 
-**Text overflow issue on 'what we do' page as text overlay on all 3 images overflown from image while switching device to small screen.** 
+  - Margin issue with phone and mail icon infront of the contact number and email address on  media section of Join Us page which cause icon and text very close and no space between, same codes were used on all pages and no similar issue noticed however only Join us page shown this issue
+    - mr-2 class to the i element was missing on join.html page, issue fixed once added mr-2 class.
 
-* Issue was fixed by using media query - font size of the text reduced for medium and extra small device using media query which fixed an issue.
+  - Slightly noticable whitespace below footer on 'who we are page' while switching display to iPad , could be just an optical illusion or any possible error
+    - Issue not yet ressolved.
 
-**Margin issue with phone and mail icon infront of the contact number and email address on  media section of 'Join Us' page which cause icon and text very close and no space between, same codes were used on all pages and no similar issue noticed however only 'Join us' page shown this issue**
-
-* mr-2 class to the i element was missing on join.html page, issue fixed once added mr-2 class.
-
-**Slightly noticable whitespace below footer on 'who we are page' while switching display to iPad , not sure if this is just an optical illusion or has some error**
-
-* Issue not ressolved.
-
-**while ran code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), Error message appeared on backdrop-filter property of image-overlay-blur class which used in info.html for what we do page**
-![error message screenshot](assets/images/code-validation-error.png)
-
-*issue not ressolved , reached out to tutor support as well and tutor had advised that this could be false result from validator as backdrop-filter property is fairly new and validator has probably not updated yet to look for this rule.
+  - While ran code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), Error message appeared on backdrop-filter property of image-overlay-blur class which used in info.html for what we do page
+   ![error message screenshot](assets/images/code-validation-error.png)
+    - issue not yet ressolved , reached out to tutor support as well and tutor had advised that this could be false result from validator as backdrop-filter property is fairly new and validator has probably not updated yet to look for this rule.
