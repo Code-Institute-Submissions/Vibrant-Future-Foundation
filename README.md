@@ -30,12 +30,32 @@ help people around the world.
 
 ---
 
+## Design 
+  
+- Main colours used throughout the pages are black, white , green and sky blue.
+
+## Typography
+
+- Chelsea Market and PT sans fonts are two fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into 
+the site correctly, Chelsea Market font used for all the headings and PT sans font used for all the paragraph text.
+
+
+## Wireframes
+
+- As a initial process of the project design , wireframes were created for Desktop, iPad and Mobile screen sizes using [Balsamiq](https://balsamiq.com/).
+
+- * Desktop Wireframe - [View](assets/images/wireframe-desktop.pdf)
+
+- * iPad Wireframe - [View](assets/images/wireframe-ipad.pdf)
+
+- * Mobile Wireframe - [View](assets/images/wireframe-mobile.pdf)
+
 ## Features
 
 ### Navigation Bar
 
 The navigation bar is positioned at the top of each page, contains title and main menu of the website, which allows users to easily navigate and access all important pages
-and information regarding the website itself in just one click. Each menu in the navigation bar would display visual indication of the current open page by changing the colour
+and information regarding the website itself in just one click. Navbar has four menu items which are Home , Who We Are , What We Do and Join Us, each menu in the navigation bar would display visual indication of the current open page by changing the colour
 compares to other menus.
 
 ### Media Section
@@ -66,16 +86,16 @@ The footer is positioned at the bottom of the each page and contains remark and 
 
 **Background Image**
 
-The background image of page 1-Home is carefully selected to show the users about fundamental issues and cases which are happening around the world. The bright boy in the background
+The background image of landing page is carefully selected to show the users about fundamental issues and cases which are happening around the world. The bright boy in the background
 image is the aim of the Foundation to keep putting the efforts, gathering the support and donations to change the world to be less intimidating for the vulnerable groups of people.
 
 **Contents**
 
-This page 1-Home is the first page to welcome the users who access the website. The display contents are simple and concise which able to give a quick brief and look on the purposes
+Home page  is the landing page to welcome the users who access the website. The display contents are simple and concise which able to give a quick brief and look on the purposes
 of the Foundation. The Foundation logo becomes the centre point of this page and follows by the slogan to inform the users about the key message which the Foundation is trying to deliver.
 this website aim to attract as many users to involve and support to the charity therefore join now and donate button also added to the home page which allow user to join and donate easily.
-join now button will take users to the last page of the website where user will be able to see the form and form will pop up on the screen when user click on donate button which is created
-by using bootstrap modal.
+join now button will take users to the last page of the website where user will be able to fill out  the form to join the charity , in a similar way donation form will pop up on the screen 
+when user click on donate button which is created by using bootstrap modal.
 
 
 ### 2. Who We Are
@@ -177,7 +197,7 @@ relevenat to the content container of the pages which fixed an issue.
 
 * Issue not ressolved.
 
-**while ran code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator), Error message appeared on backdrop-filter property of image-overlay-blur class which used in info.html for what we do page**
+**while ran code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), Error message appeared on backdrop-filter property of image-overlay-blur class which used in info.html for what we do page**
 ![error message screenshot](assets/images/code-validation-error.png)
 
 *issue not ressolved , reached out to tutor support as well and tutor had advised that this could be false result from validator as backdrop-filter property is fairly new and validator has probably not updated yet to look for this rule.
