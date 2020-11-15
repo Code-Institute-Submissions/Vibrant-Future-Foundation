@@ -44,12 +44,13 @@ body {
 #content-2,
 #content-3,
 #content-4 {
-  background: url(../images/11.jpg);
+  background: #EEEEEE;
   padding-right: 20px;
   padding-left: 20px;
   border-top: 2px solid #72636b;
   border-bottom: double;
 }
+
 /*-------------------Buttons-----------------*/
 
 .btn-info {
@@ -82,29 +83,30 @@ body {
   margin: 0 auto;
   width: auto;
   border-radius: 0;
+  border: 2px solid var(--secondary);
   transform: translate(5%, 45%);
   display: block;
 }
 
 /*-----------------------Navigation---------------*/
 .bg-dark {
-  background-color: #1e7e34 !important;
+  background-color: #009b83 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
   font-size: 20px;
-  color: #fafafa;
+  color: #ffffff;
   font-weight: 400;
   margin-left: 5px;
   margin-right: 5px;
 }
 
 .navbar-light .navbar-nav .active .nav-link {
-  color: blue;
+  color: #000000;
 }
 
 .navbar .navbar-brand {
-  color: #140ab1;
+  color: #000000;
   font-weight: 600;
   font-size: x-large;
 }
@@ -132,17 +134,18 @@ body {
 }
 
 .jumbotron-title {
-  color: #fafafa;
+  color: #e7f5f5;
   padding-bottom: 10px;
   font-weight: 400;
+  font-family: italic;
   margin-bottom: 0;
 }
 
 .small-text {
-  color: #f9ba8e;
-  font-weight: 300;
-  font-size: 21px;
-  padding-top: 10px;
+  color: #fafafa;
+  font-size: 18px;
+  font-family: italic;
+  margin-top: -6px;
 }
 
 .intro img {
@@ -377,7 +380,7 @@ body {
   border: 1px dotted black;
   border-radius: 30px;
   padding: 2px;
-  background: lightblue;
+  background: ;
   background-clip: content-box;
   margin: 20px;
   text-align: center;
@@ -457,7 +460,7 @@ input[type="submit"] {
 
 /*-----------------Modal-------*/
 .modal-content {
-  background-color: aliceblue;
+  background-color: salmon;
 }
 
 .donation-text {
@@ -472,15 +475,16 @@ input[type="submit"] {
 }
 
 .modal-sub {
-  color: yellowgreen;
+  color: #000000;
+  font-family: bold;
 }
 
 .small-modal {
-  background-color: #6e2229;
+  background-color: #adb5bd;
 }
 
 .modal-text {
-  color: #f8f9fa;
+  color: #000000;
 }
 
 /*----------------------------------------@media---------------------------------*/
