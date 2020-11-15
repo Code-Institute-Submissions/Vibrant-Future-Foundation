@@ -420,7 +420,7 @@ body {
 .joinUsForm {
   width: 100%;
   margin: 0 auto;
-  margin-top: 17%;
+  margin-top: 60px;
 }
 
 input[type="text"],
@@ -455,7 +455,8 @@ input[type="submit"] {
 }
 
 .footer-text {
-  margin: auto;
+ margin-top: -2px;
+ margin-bottom: 3px;
 }
 
 /*-----------------Modal-------*/
@@ -488,6 +489,18 @@ input[type="submit"] {
 }
 
 /*----------------------------------------@media---------------------------------*/
+
+@media screen and (max-width:305px){
+    .heading-about,
+    .heading-main{
+        margin-top: 90px;
+    }
+
+    .joinUsForm{
+        margin-top: 90px;
+    }
+}
+
 @media screen and (max-width: 576px) {
   .navbar .navbar-brand {
     font-size: 15px;
@@ -569,4 +582,8 @@ input[type="text"],
     margin-top: 16%;
     margin-bottom: 16%;
   }
+
+#content-4{
+    margin-top: 4px;
 }
+ }
