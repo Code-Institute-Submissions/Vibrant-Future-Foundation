@@ -1,7 +1,6 @@
 # **Vibrant Future Foundation**
 
 ![image](assets/images/responsive-image.JPG)
-
 ## **Purpose/Aim**
 
 Raise awareness about the vulnerable communities of elderly and children who are less fortunate and without any support from their family or close relatives.
