@@ -390,6 +390,7 @@ body {
 .heading-mission,
 .heading-vision {
   padding-top: 1%;
+  margin-bottom: -8px;
 }
 
 .sub-heading-mission,
