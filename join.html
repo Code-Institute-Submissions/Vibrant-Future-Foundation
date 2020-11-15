@@ -7,10 +7,10 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
@@ -21,10 +21,6 @@
     />
     <link
       href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -100,7 +96,7 @@
 
               <label for="email">Email Address</label>
               <input
-                type="text"
+                type="email"
                 id="email"
                 name="email"
                 required
@@ -129,10 +125,12 @@
               />
               <fieldset>
                 <legend>Interests</legend>
-                <input type="checkbox" name="run" value="run" /> Running
-                <input type="checkbox" name="ride" value="ride" /> Cycling
-                <input type="checkbox" name="social" value="social" /> Social
-                Events
+                <label for="run">Running</label>
+                <input type="checkbox" id="run" name="run" />
+                <label for="ride">Cycling</label>
+                <input type="checkbox" id="ride" name="ride" />
+                <label for="social">Social Events</label>
+                <input type="checkbox" id="social" name="social" />
                 <input type="submit" value="Join Now!" />
               </fieldset>
             </form>

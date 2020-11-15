@@ -242,8 +242,8 @@ The form allows the users to register to the Foundation as members and able to s
   - While inspecting on Ipad pro display using dev tool, most of the content shrink and resulted excess white space below the footer section of Who we are and Join Us page.
     - Issue was fixed by using media query , min-width and max-width value used in media query to target only iPad Pro display.
 
-  - There was also an excess white space on top and bottom of content section of all pages except home page while display switched to iPad Pro.
-    - Issue was fixed by adding border-top and border-bottom value to all content container in style.css : border-top value set to double and border-bottom value set to dashed for all id 
+  - There was also an excess white space on the bottom of content section of all pages except home page while display switched to iPad Pro.
+    - Issue was fixed by adding border-bottom value to all content container in style.css : border-bottom value set to double for all id 
     relevenat to the content container of the pages which fixed an issue.
 
   - Text overflow issue on what we do page as text overlay on all 3 images overflown from image while switching display to extra small screen size.
