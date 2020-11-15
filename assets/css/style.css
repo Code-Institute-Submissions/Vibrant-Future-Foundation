@@ -134,7 +134,7 @@ body {
 }
 
 .jumbotron-title {
-  color: #e7f5f5;
+  color: #FFFF;
   padding-bottom: 10px;
   font-weight: 400;
   font-family: italic;
@@ -150,9 +150,9 @@ body {
 
 .intro img {
   display: block;
-  width: 7em;
+  width: 9em;
   margin: auto;
-  height: 7em;
+  height: 10em;
 }
 
 /*----Page 2 (About section)----------*/
@@ -381,7 +381,7 @@ body {
   border: 1px dotted black;
   border-radius: 30px;
   padding: 2px;
-  background: ;
+  background:#d8e5e5;
   background-clip: content-box;
   margin: 20px;
   text-align: center;
