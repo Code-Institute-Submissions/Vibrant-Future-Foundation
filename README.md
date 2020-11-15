@@ -130,7 +130,7 @@ Instagram. The icons displayed of those social media in this page would also red
 
 This part is allowing the users to directly contact the administrator of the Foundation for further information and any queries, such as donations, events, collaborations, etc.
 The users would be able to send emails and give phone calls which would accommodate more personal and customize information, support, aids and even discussions related to the activities perform
-by the Foundation. 
+by the Foundation. Mail icon diaplay on this section would redirect the users to gmail login page and phone icon would redirect the users to whatsapp login page in just one click.
 
 ### Footer 
 
