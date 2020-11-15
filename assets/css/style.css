@@ -44,7 +44,7 @@ body {
 #content-2,
 #content-3,
 #content-4 {
-  background: #66bae261;
+  background: linear-gradient(to right,#ff0030,#ed1f54);
   padding-right: 20px;
   padding-left: 20px;
   border-top: 2px solid #72636b;
@@ -134,13 +134,13 @@ body {
 .jumbotron-title {
   color: #fafafa;
   padding-bottom: 10px;
-  font-weight: 800;
+  font-weight: 400;
   margin-bottom: 0;
 }
 
 .small-text {
   color: #f9ba8e;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 21px;
   padding-top: 10px;
 }
@@ -361,6 +361,11 @@ body {
 }
 
 /*----------------Page 3 (Mission and Vission)-------*/
+
+.heading-main{
+    margin-top: 60px;
+}
+
 .missionAndVision-row {
   margin-top: 3%;
   margin-right: auto;
@@ -499,7 +504,7 @@ input[type="submit"] {
     width: fit-content;
     height: fit-content;
   }
-
+ 
   .btn-info {
     margin-bottom: 10%;
   }
@@ -512,6 +517,9 @@ input[type="submit"] {
     font-size: 99%;
   }
 
+.col-form{
+    margin-top: 30px;
+}
 
 input[type="text"],
 [type="tel"] {

@@ -131,7 +131,7 @@ This part is allowing the users to directly contact the administrator of the Fou
 The users would be able to send emails and give phone calls which would accommodate more personal and customize information, support, aids and even discussions related to the activities perform
 by the Foundation. 
 
-### Footer
+### Footer 
 
 The footer is positioned at the bottom of the each page and contains remark and copyright of the website to the developer.
 
@@ -200,14 +200,15 @@ important milestones for the Foundation to introduce and attract various backgro
 Benefits and important message of running are being specified using the overlay text on the image itself.
 
 * _Super Cycling_
+
 The image displayed is the exact representative of the activity which enjoys by the Founders as a hobby and get together activity since the early day of the establishment of the Foundation.
- With the overlay text of the image explaining the health benefits of cycling, the Founders are trying to encourage more people to take part in the reduction of pollutions and global warming.
+With the overlay text of the image explaining the health benefits of cycling, the Founders are trying to encourage more people to take part in the reduction of pollutions and global warming.
 	
 * _Fund as We Go_
 
 This is one of the most important and critical activities executed by the Founders where the donations gathered or collected are being effectively utilized and shared to help the vulnerable 
 targets. The Foundation has made it clear that the principles of visibility and transparency are the supreme keys to ensure the aids would reach to the appropriate people by adding the overlay
- text on the displayed image.
+text on the displayed image.
 
 **Section 3 – Vision and Mission**
 
