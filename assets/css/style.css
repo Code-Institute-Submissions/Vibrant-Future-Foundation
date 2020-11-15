@@ -605,3 +605,10 @@ input[type="text"],
     margin-top: 4px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .action-heading,
+  .action-sub-heading {
+    font-size: 110%;
+  }
+}
