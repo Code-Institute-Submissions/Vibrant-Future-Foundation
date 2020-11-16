@@ -8,7 +8,7 @@ These peoples are in difficulties, negleted and unable to be self sufficient due
 was originally formed to provide help, aids and any possible support for both financially and mentally to those vulnerable people around the world and specially
 in underdeveloped and poor country.
 
-With this aim in mind, I have decided to build this mock-up website as a platform to support the foundation so that we can grab more attentions and
+With this aim in mind, I have decided to build this website as a platform to support the foundation so that we can grab more attentions and
 receiving greater/wider support from the various people and corporations as well as possible future collaborations.
 
 Main purpose of this website is to let people around us to know about this foundation and at the same time to plant awareness
@@ -18,18 +18,23 @@ be such a valuable and appreciated act of kindness so that more people will enga
 help people around the world.
 
 ## User Stories
+ **First Time User Goals**
+   - As a First Time User of this site, I want to easily navigate the site across all pages
+   - As a First Time User of this site, I want to be able to understand the history of this Foundation
+   - As a First Time User of this site, I want to know or get familiar with the founders about their motivations to start this Foundation
+   - As a First Time User of this site, I want to know vision and mission of Foundation
 
-- As a user of this site , I want to easily navigate the site across all pages
-- As a user of this site , I want to be able to understand the history of this foundation
-- As a user of this site , I want to know or get familier with the founders about their motivations to start this foundation
-- As a user of this site , I want to know mission and vision of Foundation
-- As a user of this site, I want inspiration and ideas on what I can do to make a difference to someone's life by doing small help
-- As a user of this site, I want to easily Join or Sign-Up as a member
-- As a user of this site, I want to be able to donate for the good acts of this foundation
-- As a user of this site, I want to get information on future activities on charitable or voluntering activities
-- As a user of this site, I want to be able to contact the founders or administrator to answer any query i may have
+ **Frequent User Goals**
+   - As a Frequent User of this site, I want to easily navigate the site across all pages
+   - As a Frequent User of this site, I want to find new inspirations and ideas on what I can do to make a difference to someone's life by doing small help through this Foundation
+   - As a Frequent User of this site, I want to be able to continue the donations for the greater causes for this Foundation
+   - As a Frequent User of this site, I want to get information on future activities on new charitable or volunteering activities
 
----
+ **Return User Goals**
+   - As a Return User of this site, I want to easily navigate the site across all pages
+   - As a Return Visitor of this site, I want to be able to Join or Sign-Up as a member
+   - As a Return Visitor of this site, I want contribute towards the donations raised by this Foundation 
+   - As a Return Visitor of this site, I want to be able to contact the founders or administrator to answer any query I may have relating to this Foundation
 
 ## Design 
   
