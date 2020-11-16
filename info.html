@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Vibrant Future Foundation</title>
   </head>
-
   <body>
     <header>
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
@@ -72,21 +71,20 @@
         <h1 class="heading heading-main">Small Steps, Big Impacts</h1>
         <hr class="block-divider-medium m-auto" />
         <p class="sub-heading sub-heading-about">
-          The <a href="intro.html">Founders</a> believe on the philosophy of "The starting point of all
-          achievements is desire." The act of kindness and contribution no
-          matter how small nor significant can lead to broader and wider targets
-          as well as able to reach out even to the most remote areas where
-          people live vulnerably and in dangers. Emphasising on these critical
-          social issues and cases, such as poverty, illness, disability, and
-          education, help the Founders focus on tackling the matters
-          accurately.<br />
+          The <a href="intro.html">Founders</a> believe on the philosophy of
+          "The starting point of all achievements is desire." The act of
+          kindness and contribution no matter how small nor significant can lead
+          to broader and wider targets as well as able to reach out even to the
+          most remote areas where people live vulnerably and in dangers.
+          Emphasising on these critical social issues and cases, such as
+          poverty, illness, disability, and education, help the Founders focus
+          on tackling the matters accurately.<br />
           The support, aid and helps we provided are made to happen by various
           interesting and enjoyable activities in life. In addition to these, we
           are grateful and appreciate the trust given by the communities and
           societies where it allows the Founders to keep pursuing their dreams
           and desires to continue make differences and impacts to the lives of
           the identified vulnerable people.
-          <!--Founders word link to "Who We Are" page-->
         </p>
       </div>
       <div class="container-fluid action-container">
@@ -149,11 +147,18 @@
             </div>
           </div>
         </div>
-        <button type="button" class="btn btn-info btn--cta hvr-glow">More!</button>
+        <button
+          type="button"
+          class="btn btn-info btn--cta hvr-glow"
+          data-toggle="modal"
+          data-target="#detailModal"
+        >
+          More!
+        </button>
         <div class="row missionAndVision-row justify-content-around">
           <div class="col-12 col-sm-4 mission-col">
             <h1 class="heading heading-mission">Mission</h1>
-            <hr class="block-divider-small">
+            <hr class="block-divider-small" />
             <p class="sub-heading sub-heading-mission">
               We do sport, We raise donation.<br />
               We share it all to make differences.<br />
@@ -165,17 +170,16 @@
           </div>
           <div class="col-12 col-sm-4 vision-col">
             <h1 class="heading heading-vision">Vision</h1>
-            <hr class="block-divider-small">
+            <hr class="block-divider-small" />
             <p class="sub-heading sub-heading-vision">
               To create the world less intimidating for vulnerable age
               groups.<br />
               To transform the world into happier place for children to grow up
-              and elders to live.<br>
+              and elders to live.<br />
               A World where philanthropy is inclusive, vibrant and effective
             </p>
           </div>
         </div>
-
         <hr class="block-divider" />
         <div class="row media-row">
           <div class="col-sm-4 col-media">
@@ -232,7 +236,9 @@
               <div class="row">
                 <div class="col-12 connect-col-1">
                   <h1 class="heading heading-connect">
-                    <a href="https://mail.google.com/"><i class="fas fa-mail-bulk mr-2"></i></a>
+                    <a href="https://mail.google.com/"
+                      ><i class="fas fa-mail-bulk mr-2"></i
+                    ></a>
                     <span>vff_vibfuture@gmail.com</span>
                   </h1>
                 </div>
@@ -240,7 +246,9 @@
               <div class="row">
                 <div class="col-12 connect-col-2">
                   <h1 class="heading heading-contact">
-                    <a href="https://web.whatsapp.com/"><i class="fas fa-phone-square-alt mr-2"></i></a>
+                    <a href="https://web.whatsapp.com/"
+                      ><i class="fas fa-phone-square-alt mr-2"></i
+                    ></a>
                     <span>+9779801940127 (Nepal)<br />+440711786691 (UK)</span>
                   </h1>
                 </div>
@@ -282,7 +290,7 @@
       <div class="modal-dialog">
         <div class="modal-content small-modal">
           <div class="modal-header">
-            <h5 class="modal-title modal-text">Sign Up!</h5>
+            <h1 class="modal-title modal-text">Sign Up!</h1>
             <button
               type="button"
               class="close"
@@ -321,8 +329,44 @@
               <button type="submit" class="btn btn-primary btn--dot">
                 Submit
               </button>
-              <h3 class="modal-sub">Thank You for Signing Up!</h3>
+              <h1 class="modal-sub">Thank You for Signing Up!</h1>
             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="detailModal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content medium-modal">
+          <div class="modal-header">
+            <h1 class="modal-title heading heading-story">
+              We have been participating in Various Sport activities and events
+              since the begining of our Journey to raise the fund to support our
+              aim, all the fund that raised through various activities are
+              truely given to those who need support<br />We do participate
+              every year on London Marathon and Prudential London Ride - 100
+              Miles cycling event. Our target is to raise £1000 every year by
+              participating to this and more than 80% of the fund we raise
+              ourselves from own pocket
+            </h1>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+           <div id="picture">
+           <img src="assets/images/cycle1.jpg" alt="cycling">
+            <img src="assets/images/cycle2.jpg" alt="cycling">
+             <img src="assets/images/cycle3.jpg" alt="cycling">
+              <img src="assets/images/run2.jpg" alt="running">
+               <img src="assets/images/run3.jpg" alt="running">
+                <img src="assets/images/climb.jpg" alt="climbing">
+           </div>
           </div>
         </div>
       </div>

@@ -507,6 +507,25 @@ input[type="checkbox"] {
   text-transform: capitalize;
 }
 
+
+#modalimage{
+    background-image: url("../images/11.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+#picture{
+   clear: both;
+   line-height: 0;
+   column-count: 3;
+   column-gap: 0px;
+ }
+
+ #picture img{
+   width: 100%;
+ }
 /*----------------------------------------@media---------------------------------*/
 
 @media screen and (max-width: 305px) {

@@ -74,7 +74,7 @@ the site correctly, Chelsea Market font used for all the headings and PT sans fo
 1. [Popper.js](https://popper.js.org/) 
     - Popper.js was used for navbar and modal
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the wireframes during the design process.
 1. [Gitpod](https://www.gitpod.io/)
     - Gitpod was used as IDE for local development.
 1. [GitHub:](https://github.com/)
@@ -264,7 +264,7 @@ The form allows the users to register to the Foundation as members and able to s
 
  * Background image on the Homepage was taken from [Unsplash](https://unsplash.com/photos/PAiVzSmYy-c), credit to Ben White for uploading this picture to [Unsplash](unsplash.com)
  
- * Four images of the founders on who we are page the true images of founders of the charity and all founders were happy to publish their image on websit, thanks to everyone
+ * Four images of the founders on who we are page the true images of founders of the charity and all founders were happy to publish their image on website, thanks to everyone
  
  * Image of Nepal's Flag  which is displayed below the images of founders on who we are page were taken from [Google](https://www.google.com/search?q=flag+of+nepal&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk02jALv28pQWx0SJ_wWS8Z0ZifdW7w:1605524058842&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjNitKZ84btAhUrVRUIHaVEAicQ_AUoAXoECBEQAw&biw=1920&bih=969) and modified as per project requirement using powerpoint
 
