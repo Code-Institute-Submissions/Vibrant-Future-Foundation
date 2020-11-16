@@ -38,7 +38,8 @@ help people around the world.
 
 ## Design 
   
-- Main colours used throughout the pages are black, white , green and sky blue.
+ **Main colours used throughout the pages are Light shade gray, Green and Black.**
+   - Light Shade gray colour used for background colour , Green colour used for Navigation bar and Black colour as a main Font colour.
 
 ## Typography
 
@@ -119,7 +120,7 @@ compares to other menus.
 
 ### Media Section
 
-This section is repeated at the end of the content section of every page which has sign up , social media links and contact options to the users. 
+This section is repeated at the end of the content section of who we are , what we do and join us page which has sign up , social media links and contact options to the users. 
    
 * _Sign-Up_ 
 
@@ -141,8 +142,7 @@ by the Foundation. Mail icon diaplay on this section would redirect the users to
 
 The footer is positioned at the bottom of the each page and contains remark and copyright of the website to the developer.
 
-###  1. Home
-
+### Home Page
 **Background Image**
 
 The background image of landing page is carefully selected to show the users about fundamental issues and cases which are happening around the world. The bright boy in the background
@@ -157,14 +157,14 @@ join now button will take users to the last page of the website where user will 
 when user click on donate button which is created by using bootstrap modal.
 
 
-### 2. Who We Are
+### Who We Are Page
 
 **Section 1 – About Us**
 
 The first section of page 2-Who We Are is to inform the users about the background and the purpose of establishing the Foundation. This section serves as introduction for the
 users to learn about the journey of establishing the Foundation and the basic principles believe by the Founders and their aspirations to support the targeted communities and societies.
-In addition, this section gives process glimpse of forming the logo and slogan show in the page 1-Home and explain the important meaning behind the selected colours of the final logo for
-the Foundation.
+In addition, a button is added to this section and when button clicked, modal will pop up on the screen which gives process glimpse of forming the logo and slogan show in the page 1-Home and explain the important meaning behind the selected colours of the final logo for
+the Foundation
 
 **Section 2 – Meet the Founders**
 
@@ -189,7 +189,9 @@ the Founders and any interested benefactors.
 
 **Section 4 - Media Section**
 
-### 3. What We Do
+**Section 5 - Footer Section**
+
+### What We Do Page
 
 **Section 1- Small Steps, Big Impacts**
 
@@ -216,6 +218,10 @@ This is one of the most important and critical activities executed by the Founde
 targets. The Foundation has made it clear that the principles of visibility and transparency are the supreme keys to ensure the aids would reach to the appropriate people by adding the overlay
 text on the displayed image.
 
+* _button_
+
+A button is added at the end of the activities section, upon clicking on this button  modal will pop up and user would be able to see some inspiring images about how founders have been raising the funds to charity
+
 **Section 3 – Vision and Mission**
 
 This third section of page 3-What We Do is to brief the users on the vision and mission of the Foundation. This allows users to get closer look towards the important of all the initiatives and 
@@ -223,7 +229,9 @@ activities specified in previous sections.
 
 **Section 4 - Media Section**
 
-### 4. Join Us
+**Section 5 - Footer Section**
+
+### Join Us Page
 
 **Section 1 – Image**
 
@@ -233,9 +241,11 @@ Image on this section set to be hidden on mobile devices to ensure users do not 
 **Section 2 – Join Us Form**
 
 The form allows the users to register to the Foundation as members and able to stay connected and get updates regarding any activities and events attended or organized by the Foundation. Using this form, the users would be categorized as active users, therefore able to get notification to contribute towards the donations for good cause through the Foundation. There are several fields in the form which can be filled-in to collect personal information about the users, such as first name, last name, email address, phone number, country and interests.
+All the input fields on the form are mandatory and  message will pop up on the screen to inform user if user try to submit the form without completing the correct input field.
 
 **Section 3 - Media Section**
 
+**Section 5 - Footer Section**
 
 ## Issues and Resolutions
 
@@ -263,7 +273,10 @@ The form allows the users to register to the Foundation as members and able to s
   - While ran code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), Error message appeared on backdrop-filter property of image-overlay-blur class which used in info.html for what we do page
    ![error message screenshot](assets/images/code-validation-error.png)
     - issue not yet ressolved , reached out to tutor support as well and tutor had advised that this could be false result from validator as backdrop-filter property is fairly new and validator has probably not updated yet to look for this rule.
-
+  
+  - While I ran lightouse using devtool, Homepage has performance score only 79% which i was not satisfied and was aiming to achieve at least minimun 90% plus
+    - Issue could not addressed further : as per lighthouse recommendation I tried to compress the image however i could not get the desire image in terms of quality and size after compression therefore could not make improvement as image was tested across all devices and no issue identified in terms of image loading time
+    .Also lower score in lighthouse report was caused by vendor scripts addde to my page (Bootstrap, Fontawesome etc) which was not possible to remove from the page. 
 
 ## Credit
 
