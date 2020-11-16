@@ -507,39 +507,37 @@ input[type="checkbox"] {
   text-transform: capitalize;
 }
 
-
-#modalimage{
-    background-image: url("../images/11.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+#modalimage {
+  background-image: url("../images/11.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
 }
 
-.medium-modal{
-    background: lightcyan;
+.medium-modal {
+  background: lightcyan;
 }
 
-
-.heading-gallery{
-    font-size: 15px;
-    font-weight: 200;
-    text-transform: none;
+.heading-gallery {
+  font-size: 15px;
+  font-weight: 200;
+  text-transform: none;
 }
 
-#gallery{
-   clear: both;
-   line-height: 0;
-   column-count: 3;
- }
+#gallery {
+  clear: both;
+  line-height: 0;
+  column-count: 2;
+}
 
- #gallery img{
-   width: 100%;
-   margin: 3px;
-   border: 2px solid #525252;
- }
+#gallery img {
+  width: 100%;
+  margin: 3px;
+  border: 2px solid #525252;
+}
 
- /*----------------------------------------@media---------------------------------*/
+/*----------------------------------------@media---------------------------------*/
 
 @media screen and (max-width: 305px) {
   .heading-about,
@@ -594,6 +592,7 @@ input[type="text"],
   padding: 15px;
 }
 
+
 @media (min-width: 768px) and (max-width: 768px) {
   .media-row {
     margin-bottom: 3%;
@@ -605,7 +604,13 @@ input[type="text"],
     margin-bottom: 5%;
     margin-top: 5%;
   }
+
+ 
+.heading-gallery{
+    font-size: 12px;
 }
+}
+
 
 @media (min-width: 768px) and (max-width: 992px) {
   .action-heading {
