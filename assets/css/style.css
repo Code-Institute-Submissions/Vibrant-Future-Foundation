@@ -65,7 +65,10 @@ body {
   border: 2px solid var(--secondary);
   border-radius: 10px;
   font-size: 18px;
+  color: #000000;
+  font-weight: 600;
 }
+
 .btn--dot {
   border: 2px solid var(--secondary);
   border-radius: 10px;
@@ -91,8 +94,8 @@ body {
 /*------Hover--------*/
 .list-inline-social i:hover,
 .connect-col-1 i:hover,
-.connect-col-2 i:hover{
-    color: #009b83;
+.connect-col-2 i:hover {
+  color: #009b83;
 }
 
 /*-----------------------Navigation---------------*/
@@ -475,7 +478,11 @@ input[type="checkbox"] {
 
 /*-----------------Modal-------*/
 .modal-content {
-  background-color: salmon;
+  background-color: #d5f2d5;
+}
+
+.modal-title {
+  font-size: 25px;
 }
 
 .donation-text {
@@ -495,7 +502,7 @@ input[type="checkbox"] {
 }
 
 .small-modal {
-  background-color: #adb5bd;
+  background-color: #d5f2d5;
 }
 
 .modal-text {
