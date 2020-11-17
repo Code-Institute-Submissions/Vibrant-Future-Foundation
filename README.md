@@ -17,24 +17,27 @@ Also, share the information on how we help people and no matter what the size of
 be such a valuable and appreciated act of kindness so that more people will engage and be attracted with our aim and we can extensively
 help people around the world.
 
+# User Experience(UX)
+
 ## User Stories
- **First Time User Goals**
-   - As a First Time User of this site, I want to easily navigate the site across all pages
-   - As a First Time User of this site, I want to be able to understand the history of this Foundation
-   - As a First Time User of this site, I want to know or get familiar with the founders about their motivations to start this Foundation
-   - As a First Time User of this site, I want to know vision and mission of Foundation
+**First Time User Goals**
+- As a First Time User of this site, I want to easily navigate the site across all pages
+- As a First Time User of this site, I want to be able to understand the history of this Foundation, 
+get to know or get familiar with the founders about their motivations to start this Foundation
+- As a First Time User of this site, I want to know vision and mission of Foundation
 
- **Frequent User Goals**
-   - As a Frequent User of this site, I want to easily navigate the site across all pages
-   - As a Frequent User of this site, I want to find new inspirations and ideas on what I can do to make a difference to someone's life by doing small help through this Foundation
-   - As a Frequent User of this site, I want to be able to continue the donations for the greater causes for this Foundation
-   - As a Frequent User of this site, I want to get information on future activities on new charitable or volunteering activities
+**Frequent User Goals**
+- As a Frequent User of this site, I want to easily navigate the site across all pages
+- As a Frequent User of this site, I want to find new inspirations and ideas on what I can do to make a difference to someone's life by doing small help through this Foundation
+- As a Frequent User of this site, I want to be able to continue the donations for the greater causes for this Foundation
+- As a Frequent User of this site, I want to get information on future activities on new charitable or volunteering activities
+- As a Frequent User of this site, I want to get connected with foundation by using social media.
 
- **Return User Goals**
-   - As a Return User of this site, I want to easily navigate the site across all pages
-   - As a Return Visitor of this site, I want to be able to Join or Sign-Up as a member
-   - As a Return Visitor of this site, I want contribute towards the donations raised by this Foundation 
-   - As a Return Visitor of this site, I want to be able to contact the founders or administrator to answer any query I may have relating to this Foundation
+**Return User Goals**
+- As a Return User of this site, I want to easily navigate the site across all pages
+- As a Return User of this site, I want to be able to Join or Sign-Up as a member
+- As a Return User of this site, I want contribute towards the donations raised by this Foundation 
+- As a Return User of this site, I want to be able to contact the founders or administrator to answer any query I may have relating to this Foundation
 
 ## Design 
   
@@ -104,11 +107,56 @@ The below tools were used at various points throughout the build:
   - Lighthouse was used to test the performance and loading speed of the website
 
 
-**Manual Testing**
+### Testing User Stories from User Experience (UX) Section 
 
-*Navigation Bar
+#### First Time User Goals
 
- - 
+- As a First Time User of this site, I want to easily navigate the site across all pages
+
+1. _Upon entering the site, Users are automatically greeted by the navigation bar at the top of the page(s) which contains menu items, linked to the pages of the site and allow users to access to the page(s) of their choice_
+2. _All the menu items to access the pages tested to ensure those took the users to the correct pages_
+
+- As a First Time user of this site, I want to be able to understand the history of this Foundation, 
+get to know or get familiar with the founders about their motivations to start this Foundation
+
+1. _Who we are option from menu item of navbar will take user to the second page where 'about us’ section greeted the users with history of this Foundation, user would be able to know history of foundation in more depth by clicking the read full story button on this page. Meet the Founders’ section displays to introduce the founders to users with  photos of the founders of and flag images_
+2. _Button was tested to ensure it trigger the modal upon clicking. also tested that button and modal are responsive on small devices and visible clearly._
+3. _All the images were tested to ensure they are loading properly , responsive on small devices and not overlapping to each others._
+
+#### Frequent User Goals
+
+- As a Frequent user of this site, I want to find new inspirations and ideas on what I can do to make a difference to someone's life by doing small help through this Foundation
+     
+1. _What we do page of this website gives user with some inspirations and ideas to support others by participating to various activities, three different images of running, cycling and fund raising are displayed with text overlay on them and text has very motivitional message which encourage users to involve into such activities. Additionally a button below images can be clicked to find out more on how founders are contributing towards the charity fund._
+2. _All three images were tested to ensure they display collectly and loading quickly, also overlay effect was tested to ensure it is effective and all three overlay effects are exactly same. most importantly overlay effect was tested on various small screen size to ensure there is no issue with text overflowing outside of image._
+3. _Button was tested to ensure it triggers the modal upon clicking on it and modal was also tested to ensure images on the galary section inside the modal are loaded properly and displayed correctly across all devices_
+
+-  As a Frequent user of this site, I want to be able to continue the donations for the greater causes for this Foundation
+
+1. _Donate button on the home page gives an option to donate, upon clicking on this button, modal will trigger the form and user can easily donate to charity by submitting the donate form._
+2. _Donate button was tested to ensure it triggers the modal and pop up the form on the screen immediately , all the input elements on the forms were tested to ensure that error message appear if missing input element or incorret format used for email and contact number while completing the form_
+
+- As a Frequent user of this site, I want to get information on future activities on new charitable or volunteering activities
+
+1. _The Sign Up section offers the user the option to sign up to get information on future activities of charity, user will just need to click on sign up button and provide their name and email and submit using form._
+2. _Sign Up button on all the pages were tested to ensure modal trigger upon clicking on the button and form pop up on screen, input elements on the forms were tested to ensure that error message appear if missing input element or incorret email format used while completing the form._
+
+- As a Frequent user of this site, I want to get connected with foundation by using social media.
+
+1. _social media icons on the media section of who we are , what we do and , join us page offers user to follow the charity on socila media, each icon will takes user to their login page window upon clicking on the icons._
+2. _Each social media icon was tested to ensure new window with login page open on the browser once the icon clicked._
+
+#### Return User Goals
+
+- As a Return user of this site, I want to be able to Join or Sign-Up as a member
+
+1. _Join Us button of the home page directly take user to the Join us page of the website alternatively user can also Join by selecting Join us menu item on navbar which displayed on every pages user would need to complete a small and very simple form and then click Join us button below form._
+2. _Button on the home page was tested to ensure that it will take user to Join us oage opon clicking it, input elements on the forms were tested to ensure that error message appear if missing input element or incorret email or phone number format used while completing the form. also form was tested on mobile devices to ensure that form is displayed correctly, image on this page is hidden and [form](assets/images/form.jpg) is appear directly on screen while viewing the page on mobile devices._
+
+- As a Return user of this site, I want to be able to contact the founders or administrator to answer any query I may have relating to this Foundation 
+
+1. _Email address and contact numbers are provided on the pages, user can contact the founders directly using the icons of mail and phone displayed on the page. when user click on the mail icon browser will redirect  user to gmail login page and whatsapp login page will appear on the new window when user click on the phone icon._
+2. _contact section, mail and phone icon was tested on small devices to ensure they are responsive and displayed correctly, also test was carried to ensure mail and phone icon will take users to the corect page._
 
 ## Features
 
@@ -220,7 +268,7 @@ text on the displayed image.
 
 * _button_
 
-A button is added at the end of the activities section, upon clicking on this button  modal will pop up and user would be able to see some inspiring images about how founders have been raising the funds to charity
+A button is added at the end of the activities section, upon clicking on this button, modal will pop up and user would be able to see some inspiring images about how founders have been raising the funds to charity
 
 **Section 3 – Vision and Mission**
 
@@ -270,13 +318,12 @@ All the input fields on the form are mandatory and  message will pop up on the s
   - Slightly noticable whitespace below footer on 'who we are page' while switching display to iPad , could be just an optical illusion or any possible error
     - Issue not yet ressolved.
 
-  - While ran code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), Error message appeared on backdrop-filter property of image-overlay-blur class which used in info.html for what we do page
-   ![error message screenshot](assets/images/code-validation-error.png)
-    - issue not yet ressolved , reached out to tutor support as well and tutor had advised that this could be false result from validator as backdrop-filter property is fairly new and validator has probably not updated yet to look for this rule.
+  - While ran code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), backdrop-filter property of image-overlay-blur class which used in info.html for what we do page shown an [error message](assets/images/code-validation-error.jpg)
+    - issue not yet ressolved, reached out to tutor support as well and tutor had advised that this could be false result from validator as backdrop-filter property is fairly new and validator has probably not updated yet to look for this rule.
   
-  - While I ran lightouse using devtool, Homepage has performance score only 79% which i was not satisfied and was aiming to achieve at least minimun 90% plus
+  - While I ran lightouse using devtool, Homepage has performance score was below 90% which i was not satisfied as i was aiming the score above 90% minimum
     - Issue could not addressed further : as per lighthouse recommendation I tried to compress the image however i could not get the desire image in terms of quality and size after compression therefore could not make improvement as image was tested across all devices and no issue identified in terms of image loading time
-    .Also lower score in lighthouse report was caused by vendor scripts addde to my page (Bootstrap, Fontawesome etc) which was not possible to remove from the page. 
+    .Also lower score in lighthouse report was caused by [vendor scripts](assets/images/lighthouse-issue.jpg) addde to my page (Bootstrap, Fontawesome etc) which was not possible to remove from the page. 
 
 ## Credit
 
@@ -302,4 +349,4 @@ All the input fields on the form are mandatory and  message will pop up on the s
 
  * Concept of having number pattern as required element for phone number while creating form for Join Us page was taken from [Codegrepper Page](https://www.codegrepper.com/code-examples/html/html+phone+number+input)
  
- * Credit to [W3School](https://www.w3schools.com/default.asp) page as i have accessed this page throughout the process which was really helpful for ressolving an issue on several occasion , i have also copied the HTML code from [W3school](https://www.w3schools.com/html/html_forms.asp) while creating form for my Join Us page and modified as per project requirement
+ * Credit to [W3School](https://www.w3schools.com/default.asp) page as i have accessed this page throughout the process which was really helpful for ressolving an issue on several occasion , i have also taken the HTML code from [W3school](https://www.w3schools.com/html/html_forms.asp) while creating form for my Join Us page and modified as per project requirement
