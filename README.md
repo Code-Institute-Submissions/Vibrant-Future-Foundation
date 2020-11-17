@@ -363,13 +363,21 @@ The project was deployed to GitHub Pages using the following steps...
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone 
+$ git clone https://github.com/shiva123-coder/Vibrant-Future-Foundation-.git
 ``` 
 
 7. Press Enter. Your local clone will be created.
+```
+$ git clone https://github.com/shiva123-coder/Vibrant-Future-Foundation-.git
+Cloning into 'Vibrant-Future-Foundation-'...
+remote: Enumerating objects: 704, done.
+remote: Counting objects: 100% (704/704), done.
+remote: Compressing objects: 100% (401/401), done.
+remote: Total 704 (delta 357), reused 565 (delta 224), pack-reused 0
+Receiving objects: 100% (704/704), 14.09 MiB | 3.85 MiB/s, done.
+Resolving deltas: 100% (357/357), done.
 
 ```
-
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
@@ -377,29 +385,29 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credit
 
- * Background image on the Homepage was taken from [Unsplash](https://unsplash.com/photos/PAiVzSmYy-c), credit to Ben White for uploading this picture to [Unsplash](unsplash.com)
+* Background image on the Homepage was taken from [Unsplash](https://unsplash.com/photos/PAiVzSmYy-c), credit to Ben White for uploading this picture to [Unsplash](unsplash.com)
  
- * Four images of the founders on who we are page the true images of founders of the charity and all founders were happy to publish their image on website, thanks to everyone
+* Four images of the founders on who we are page the true images of founders of the charity and all founders were happy to publish their image on website, thanks to everyone
  
- * Image of Nepal's Flag  which is displayed below the images of founders on who we are page were taken from [Google](https://www.google.com/search?q=flag+of+nepal&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk02jALv28pQWx0SJ_wWS8Z0ZifdW7w:1605524058842&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjNitKZ84btAhUrVRUIHaVEAicQ_AUoAXoECBEQAw&biw=1920&bih=969) and modified as per project requirement using powerpoint
+* Image of Nepal's Flag  which is displayed below the images of founders on who we are page were taken from [Google](https://www.google.com/search?q=flag+of+nepal&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk02jALv28pQWx0SJ_wWS8Z0ZifdW7w:1605524058842&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjNitKZ84btAhUrVRUIHaVEAicQ_AUoAXoECBEQAw&biw=1920&bih=969) and modified as per project requirement using powerpoint
 
- * Image of UK's flag which is displayed below the images of founders on who we are page were taken from [Google](https://www.google.com/search?q=flag+of+uk&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk03nNHin4cq4Z6qlORbyjWHf2nxyTQ:1605524377976&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2xOix9IbtAhVCThUIHabHBGUQ_AUoAXoECA4QAw&biw=1920&bih=969) and modified as per project requirement using powerpoint
+* Image of UK's flag which is displayed below the images of founders on who we are page were taken from [Google](https://www.google.com/search?q=flag+of+uk&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk03nNHin4cq4Z6qlORbyjWHf2nxyTQ:1605524377976&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2xOix9IbtAhVCThUIHabHBGUQ_AUoAXoECA4QAw&biw=1920&bih=969) and modified as per project requirement using powerpoint
   
- * First image of running on What we do page was taken from [Coachmag](https://www.coachmag.co.uk/marathon-training/6520/london-marathon-ballot)
+* First image of running on What we do page was taken from [Coachmag](https://www.coachmag.co.uk/marathon-training/6520/london-marathon-ballot)
  
- * Second Image of cycling on what we do page was taken from google images of [london prudential ride](https://www.google.com/search?q=london+prudential+ride+images&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk03nYavIJg2EzgahHj3ulAokn_ZrrQ:1605527548092&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiThrmZgIftAhXCUBUIHWXHBRkQ_AUoAnoECAgQBA&biw=1920&bih=969#imgrc=nSP_iZ-JsBdMNM)
+* Second Image of cycling on what we do page was taken from google images of [london prudential ride](https://www.google.com/search?q=london+prudential+ride+images&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk03nYavIJg2EzgahHj3ulAokn_ZrrQ:1605527548092&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiThrmZgIftAhXCUBUIHWXHBRkQ_AUoAnoECAgQBA&biw=1920&bih=969#imgrc=nSP_iZ-JsBdMNM)
  
- * Third image of fund collection on what we do page was taken from [Unsplash](https://unsplash.com/photos/Y_x747Yshlw), thanks to Christian Dubovan for uploading this image to [Unsplash](unsplash.com)
+* Third image of fund collection on what we do page was taken from [Unsplash](https://unsplash.com/photos/Y_x747Yshlw), thanks to Christian Dubovan for uploading this image to [Unsplash](unsplash.com)
  
- * Some of the text content in vision section of what we do page were taken from [Charity Navigator Page](https://www.charitynavigator.org/index.cfm?bay=content.view&cpid=17)
+* Some of the text content in vision section of what we do page were taken from [Charity Navigator Page](https://www.charitynavigator.org/index.cfm?bay=content.view&cpid=17)
  
- * Thanks to dcode for [youtube video](https://www.youtube.com/watch?v=exb2ab72Xhs) on Image Hover Text Overlay effect - I have used some code and concept from this video for my what we do page while creating overlay effect on image 
+* Thanks to dcode for [youtube video](https://www.youtube.com/watch?v=exb2ab72Xhs) on Image Hover Text Overlay effect - I have used some code and concept from this video for my what we do page while creating overlay effect on image 
 
- * Thanks to Academind for [youtube video](https://www.youtube.com/watch?v=23bpce-5s8I) on Bootstrap Navbar concepts which was really helpful for me to understand on making Navbar responsive. 
+* Thanks to Academind for [youtube video](https://www.youtube.com/watch?v=23bpce-5s8I) on Bootstrap Navbar concepts which was really helpful for me to understand on making Navbar responsive. 
 
- * Concept of having number pattern as required element for phone number while creating form for Join Us page was taken from [Codegrepper Page](https://www.codegrepper.com/code-examples/html/html+phone+number+input)
+* Concept of having number pattern as required element for phone number while creating form for Join Us page was taken from [Codegrepper Page](https://www.codegrepper.com/code-examples/html/html+phone+number+input)
  
- * Credit to [W3School](https://www.w3schools.com/default.asp) page as i have accessed this page throughout the process which was really helpful for ressolving an issue on several occasion , i have also taken the HTML code from [W3school](https://www.w3schools.com/html/html_forms.asp) while creating form for my Join Us page and modified as per project requirement
+* Credit to [W3School](https://www.w3schools.com/default.asp) page as i have accessed this page throughout the process which was really helpful for ressolving an issue on several occasion , i have also taken the HTML code from [W3school](https://www.w3schools.com/html/html_forms.asp) while creating form for my Join Us page and modified as per project requirement
 
 
 ## Acknowledgements
