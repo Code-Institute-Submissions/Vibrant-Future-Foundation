@@ -336,7 +336,13 @@ All the input fields on the form are mandatory and  message will pop up on the s
   - While I ran lightouse using devtool, Homepage has performance score was below 90% which i was not satisfied as i was aiming the score above 90% minimum
     - Issue could not addressed further : as per lighthouse recommendation I tried to compress the image however i could not get the desire image in terms of quality and size after compression therefore could not make improvement as image was tested across all devices and no issue identified in terms of image loading time
     .Also lower score in lighthouse report was caused by [vendor scripts](assets/images/lighthouse-issue.jpg) addde to my page (Bootstrap, Fontawesome etc) which was not possible to remove from the page. 
+  
+  - **Internet Explorer** showed an Issue on Home page, modal and overlay-effect of what we do page while testing the page, Content of the home page and logo did not display correctly in the centre, instead displayed vertically.
+    Also donate and sign up form showing an issue with placeholder text as placeholder text not displaying correctly, gallary section on the what we do page which trigger by more button also shown large excess space below images
+    - issue not yet ressolved
 
+  - **Mozila Firefox** shown an issue with images on what we do pages as blur-effect that used on image did not work.
+   - issue not yet ressolved.
 
 ## Deployment
 
