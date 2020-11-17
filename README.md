@@ -111,52 +111,59 @@ The below tools were used at various points throughout the build:
 
 #### First Time User Goals
 
-- As a First Time User of this site, I want to easily navigate the site across all pages
+##### As a First Time User of this site, I want to easily navigate the site across all pages
 
 1. _Upon entering the site, Users are automatically greeted by the navigation bar at the top of the page(s) which contains menu items, linked to the pages of the site and allow users to access to the page(s) of their choice_
 2. _All the menu items to access the pages tested to ensure those took the users to the correct pages_
 
-- As a First Time user of this site, I want to be able to understand the history of this Foundation, 
-get to know or get familiar with the founders about their motivations to start this Foundation
+##### As a First Time user of this site, I want to be able to understand the history of this Foundation, get to know or get familiar with the founders about their motivations to start this Foundation
 
-1. _Who we are option from menu item of navbar will take user to the second page where 'about us’ section greeted the users with history of this Foundation, user would be able to know history of foundation in more depth by clicking the read full story button on this page. Meet the Founders’ section displays to introduce the founders to users with  photos of the founders of and flag images_
+1. _Who we are option from menu item of navbar will take user to the second page where 'about us’ section greeted the users with history of this Foundation, user would be able to know history of foundation in more depth by clicking the read full story button on this page. Meet the Founders’ section displays to introduce the founders to users with  photos of the founders and flag images_
 2. _Button was tested to ensure it trigger the modal upon clicking. also tested that button and modal are responsive on small devices and visible clearly._
 3. _All the images were tested to ensure they are loading properly , responsive on small devices and not overlapping to each others._
 
 #### Frequent User Goals
 
-- As a Frequent user of this site, I want to find new inspirations and ideas on what I can do to make a difference to someone's life by doing small help through this Foundation
+##### As a Frequent user of this site, I want to find new inspirations and ideas on what I can do to make a difference to someone's life by doing small help through this Foundation
      
 1. _What we do page of this website gives user with some inspirations and ideas to support others by participating to various activities, three different images of running, cycling and fund raising are displayed with text overlay on them and text has very motivitional message which encourage users to involve into such activities. Additionally a button below images can be clicked to find out more on how founders are contributing towards the charity fund._
 2. _All three images were tested to ensure they display collectly and loading quickly, also overlay effect was tested to ensure it is effective and all three overlay effects are exactly same. most importantly overlay effect was tested on various small screen size to ensure there is no issue with text overflowing outside of image._
 3. _Button was tested to ensure it triggers the modal upon clicking on it and modal was also tested to ensure images on the galary section inside the modal are loaded properly and displayed correctly across all devices_
 
--  As a Frequent user of this site, I want to be able to continue the donations for the greater causes for this Foundation
+##### As a Frequent user of this site, I want to be able to continue the donations for the greater causes for this Foundation
 
 1. _Donate button on the home page gives an option to donate, upon clicking on this button, modal will trigger the form and user can easily donate to charity by submitting the donate form._
 2. _Donate button was tested to ensure it triggers the modal and pop up the form on the screen immediately , all the input elements on the forms were tested to ensure that error message appear if missing input element or incorret format used for email and contact number while completing the form_
 
-- As a Frequent user of this site, I want to get information on future activities on new charitable or volunteering activities
+##### As a Frequent user of this site, I want to get information on future activities on new charitable or volunteering activities
 
-1. _The Sign Up section offers the user the option to sign up to get information on future activities of charity, user will just need to click on sign up button and provide their name and email and submit using form._
+1. _The Sign Up section offers the user the option to sign up to get information on future activities of charity, user will just need to click on sign up button and provide their name and email and submit the form._
 2. _Sign Up button on all the pages were tested to ensure modal trigger upon clicking on the button and form pop up on screen, input elements on the forms were tested to ensure that error message appear if missing input element or incorret email format used while completing the form._
 
-- As a Frequent user of this site, I want to get connected with foundation by using social media.
+##### As a Frequent user of this site, I want to get connected with foundation by using social media.
 
 1. _social media icons on the media section of who we are , what we do and , join us page offers user to follow the charity on socila media, each icon will takes user to their login page window upon clicking on the icons._
 2. _Each social media icon was tested to ensure new window with login page open on the browser once the icon clicked._
 
 #### Return User Goals
 
-- As a Return user of this site, I want to be able to Join or Sign-Up as a member
+##### As a Return user of this site, I want to be able to Join or Sign-Up as a member
 
-1. _Join Us button of the home page directly take user to the Join us page of the website alternatively user can also Join by selecting Join us menu item on navbar which displayed on every pages user would need to complete a small and very simple form and then click Join us button below form._
-2. _Button on the home page was tested to ensure that it will take user to Join us oage opon clicking it, input elements on the forms were tested to ensure that error message appear if missing input element or incorret email or phone number format used while completing the form. also form was tested on mobile devices to ensure that form is displayed correctly, image on this page is hidden and [form](assets/images/form.jpg) is appear directly on screen while viewing the page on mobile devices._
+1. _Join Us button of the home page directly take user to the Join us page of the website, alternatively user can also Join by selecting Join us menu item on navbar which displayed on every pages, user would need to complete a small and very simple form and then click Join us button below form._
+2. _Button on the home page was tested to ensure that it will take user to Join us oage opon clicking it, input elements on the forms were tested to ensure that error message appear if missing input element or incorret email or phone number format used while completing the form. also form was tested on mobile devices to ensure that form is displayed correctly, image on this page is hidden and [form is appear directly on screen](assets/images/form.jpg) while viewing the page on mobile devices._
 
-- As a Return user of this site, I want to be able to contact the founders or administrator to answer any query I may have relating to this Foundation 
+##### As a Return user of this site, I want to be able to contact the founders or administrator to answer any query I may have relating to this Foundation 
 
-1. _Email address and contact numbers are provided on the pages, user can contact the founders directly using the icons of mail and phone displayed on the page. when user click on the mail icon browser will redirect  user to gmail login page and whatsapp login page will appear on the new window when user click on the phone icon._
+1. _Email address and contact numbers are provided on the pages, user can contact the founders directly using the icons of mail and phone displayed on the page. when user click on the mail icon, browser will redirect  user to gmail login page, and whatsapp login page will appear on the new window when user click on the phone icon._
 2. _contact section, mail and phone icon was tested on small devices to ensure they are responsive and displayed correctly, also test was carried to ensure mail and phone icon will take users to the corect page._
+
+
+### Further Testing
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, iPhone.
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
 
 ## Features
 
@@ -295,6 +302,11 @@ All the input fields on the form are mandatory and  message will pop up on the s
 
 **Section 5 - Footer Section**
 
+## Future Features to be Implemented
+- Add new pages to website specially for image and video purpose, which allow owner to include more images and videos of Events or any programme that organized by charity
+- Add new page with Contact us section in order for charity to interact with user more easily and oftenly.
+- Hero image on Landing page to be customize further, 3 or 4 images will be used for hero image using some animation effect on them.
+
 ## Issues and Resolutions
 
 #### The following issues were identified and ressolved throughout the build process.
@@ -325,6 +337,50 @@ All the input fields on the form are mandatory and  message will pop up on the s
     - Issue could not addressed further : as per lighthouse recommendation I tried to compress the image however i could not get the desire image in terms of quality and size after compression therefore could not make improvement as image was tested across all devices and no issue identified in terms of image loading time
     .Also lower score in lighthouse report was caused by [vendor scripts](assets/images/lighthouse-issue.jpg) addde to my page (Bootstrap, Fontawesome etc) which was not possible to remove from the page. 
 
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+ - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh and the website is now deployed.
+6. Scroll back down to the GitHub Pages section to retrive the link to the deployed website.
+
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone 
+``` 
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+
+
 ## Credit
 
  * Background image on the Homepage was taken from [Unsplash](https://unsplash.com/photos/PAiVzSmYy-c), credit to Ben White for uploading this picture to [Unsplash](unsplash.com)
@@ -350,3 +406,12 @@ All the input fields on the form are mandatory and  message will pop up on the s
  * Concept of having number pattern as required element for phone number while creating form for Join Us page was taken from [Codegrepper Page](https://www.codegrepper.com/code-examples/html/html+phone+number+input)
  
  * Credit to [W3School](https://www.w3schools.com/default.asp) page as i have accessed this page throughout the process which was really helpful for ressolving an issue on several occasion , i have also taken the HTML code from [W3school](https://www.w3schools.com/html/html_forms.asp) while creating form for my Join Us page and modified as per project requirement
+
+
+## Acknowledgements
+
+I would like to thank everyone on the Code institute Slack channels, tutor support team and Massive thank to my Mentor [Mark Railton](https://github.com/railto)
+
+## Disclaimer
+
+All images and contents of website are eductaional purpose only

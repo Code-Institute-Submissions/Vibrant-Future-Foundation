@@ -88,6 +88,13 @@ body {
   display: block;
 }
 
+/*------Hover--------*/
+.list-inline-social i:hover,
+.connect-col-1 i:hover,
+.connect-col-2 i:hover{
+    color: #009b83;
+}
+
 /*-----------------------Navigation---------------*/
 .bg-dark {
   background-color: #009b83 !important;
@@ -111,7 +118,7 @@ body {
   font-size: x-large;
 }
 
-/*--------------------------Page 1 ---------*/
+/*--------------------------Home Page---------*/
 .hero-container {
   height: 100vh;
   background: url("../images/child.jpg") no-repeat;
@@ -155,7 +162,7 @@ body {
   height: 10em;
 }
 
-/*----Page 2 (About section)----------*/
+/*----Who we are page(About section)----------*/
 .heading-about {
   padding-top: 3%;
   margin-top: 60px;
@@ -165,7 +172,7 @@ body {
   margin-top: 1%;
 }
 
-/*----Page 2 (Founder section)-----------*/
+/*----Who we are page (Founder section)-----------*/
 .indivisual-row {
   margin-top: 3%;
 }
@@ -236,12 +243,12 @@ body {
   font-size: 15px;
 }
 
-/*----------Page 2 (Clarity Section)-------*/
+/*----------Who we are page(Clarity Section)-------*/
 .clarity-row {
   margin-top: 30px;
 }
 
-/*----Page 2 (Media Section )-----------*/
+/*----Media Section----------*/
 
 .media-row {
   margin-top: 2%;
@@ -280,7 +287,7 @@ body {
   font-size: 40px;
 }
 
-/*----------Page 3 -------*/
+/*----------What we do page-------*/
 .heading-main {
   padding-top: 3%;
 }
@@ -316,7 +323,7 @@ body {
 }
 
 /*-- code taken from youtube video of dcode  (https://www.youtube.com/watch?v=exb2ab72Xhs) 
-             and modified as per project requirement (start)--*/
+    and modified as per project requirement (start)--*/
 
 .image-overlay {
   position: absolute;
@@ -350,7 +357,7 @@ body {
 }
 
 /*--code taken from youtube video of decode (https://www.youtube.com/watch?v=exb2ab72Xhs)
-          and modified as per project requirement (End)--*/
+    and modified as per project requirement (End)--*/
 
 .action-sub-heading {
   color: #fafafa;
@@ -364,7 +371,7 @@ body {
   text-align: center;
 }
 
-/*----------------Page 3 (Mission and Vission)-------*/
+/*----------------What we do page(Mission and Vission)-------*/
 
 .heading-main {
   margin-top: 60px;
@@ -398,7 +405,7 @@ body {
   padding: 0 5% 0 5%;
 }
 
-/*------------Page 4 (image)---------*/
+/*------------Join Us page(image)---------*/
 .appeal {
   position: relative;
   height: 700px;
@@ -413,7 +420,7 @@ body {
   padding: 20px;
 }
 
-/*-------------Page 4 (Form)-------*/
+/*-------------Join Us page(Form)-------*/
 
 .appeal-container {
   margin-top: 5%;
@@ -592,7 +599,6 @@ input[type="text"],
   padding: 15px;
 }
 
-
 @media (min-width: 768px) and (max-width: 768px) {
   .media-row {
     margin-bottom: 3%;
@@ -605,12 +611,10 @@ input[type="text"],
     margin-top: 5%;
   }
 
- 
-.heading-gallery{
+  .heading-gallery {
     font-size: 12px;
+  }
 }
-}
-
 
 @media (min-width: 768px) and (max-width: 992px) {
   .action-heading {
