@@ -337,12 +337,12 @@ All the input fields on the form are mandatory and  message will pop up on the s
     - Issue could not addressed further : as per lighthouse recommendation I tried to compress the image however i could not get the desire image in terms of quality and size after compression therefore could not make improvement as image was tested across all devices and no issue identified in terms of image loading time
     .Also lower score in lighthouse report was caused by [vendor scripts](assets/images/lighthouse-issue.jpg) addde to my page (Bootstrap, Fontawesome etc) which was not possible to remove from the page. 
   
-  - **Internet Explorer** showed an Issue on Home page, modal and overlay-effect of what we do page while testing the page, [Content of the home page and logo did not display correctly](assets/images/homepage.jpg) in the centre, instead displayed vertically.
+  - **Internet Explorer** showed an Issue on Home page,  while testing the page, [Content of the home page and logo did not display correctly](assets/images/homepage.jpg) in the centre, instead displayed vertically.
     Also donate and sign up form showing an [issue with placeholder text](assets/images/modal.jpg) as placeholder text not displaying correctly, gallary section on the what we do page which trigger by button below images also shown large excess space below images
     - issue not yet ressolved
 
-  - **Mozilla Firefox** shown an issue with images on what we do pages as blur-effect that used on image did not work.
-    - issue not yet ressolved.
+  - **Mozilla Firefox** **Internet Explorer** shown an issue with images on what we do pages as blur-effect that used on image did not work.
+    - issue not yet ressolved, after reaching out with tutor support, mentor and doing my own reaserach I have found that backdrop-filter property that i have used in my style.css for blur effect not currently supported on **Mozilla Firefox** **Internet Explorer** which resulted diffrent outcome as compare to Google Chrome and safari.
 
 ## Deployment
 

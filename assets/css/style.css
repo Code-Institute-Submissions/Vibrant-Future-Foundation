@@ -54,7 +54,8 @@ body {
 /*-------------------Buttons-----------------*/
 
 .btn-info {
-  border-radius: 20px;
+  border: 2px solid var(--secondary);
+  border-radius: 10px;
   margin-bottom: 10px;
 }
 
@@ -80,13 +81,15 @@ body {
 
 .btn--signUp {
   margin-bottom: 5%;
+  border: 2px solid var(--secondary);
+  border-radius: 10px;
 }
 
 .btn--cta {
   margin: 0 auto;
   width: auto;
-  border-radius: 0;
   border: 2px solid var(--secondary);
+  border-radius: 10px;
   transform: translate(5%, 45%);
   display: block;
 }
