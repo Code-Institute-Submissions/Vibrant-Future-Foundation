@@ -6,15 +6,15 @@
 Raise awareness about the vulnerable communities of elderly and children who are less fortunate and without any support from their family or close relatives.
 These peoples are in difficulties, negleted and unable to be self sufficient due to poverty, illness, disability and even wars. "Vibrant Future Foundation"
 was originally formed to provide help, aids and any possible support for both financially and mentally to those vulnerable people around the world and specially
-in underdeveloped and poor country.
+in underdeveloped and poor countries.
 
 With this aim in mind, I have decided to build this website as a platform to support the foundation so that we can grab more attentions and
 receiving greater/wider support from the various people and corporations as well as possible future collaborations.
 
 Main purpose of this website is to let people around us to know about this foundation and at the same time to plant awareness
 of real social issues in the communities and broader societies.
-Also, share the information on how we help people and no matter what the size of the support, big or small, from everyone would
-be such a valuable and appreciated act of kindness so that more people will engage and be attracted with our aim and we can extensively
+Also, share the information on how we help people and no matter what the size of the support from everyone, big or small, would
+be valuable and appreciated act of kindness so that more people will engage and be attracted with our aims and we can extensively
 help people around the world.
 
 # User Experience(UX)
@@ -42,17 +42,17 @@ get to know or get familiar with the founders about their motivations to start t
 ## Design 
   
  **Main colours used throughout the pages are Light shade gray, Green and Black.**
-   - Light Shade gray colour used for background colour , Green colour used for Navigation bar and Black colour as a main Font colour.
+   - Light shade of gray colour used for background colour, green colour used for Navigation bar and black colour as main font colour.
 
 ## Typography
 
-- Chelsea Market and PT sans fonts are two fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into 
-the site correctly, Chelsea Market font used for all the headings and PT sans font used for all the paragraph text.
+- Chelsea Market and PT Sans fonts are two font types used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into 
+the site correctly, Chelsea Market font used for all the headings and PT Sans font used for all the paragraph texts.
 
 
 ## Wireframes
 
-- As a initial process of the project design , wireframes were created for Desktop, iPad and Mobile screen sizes using [Balsamiq](https://balsamiq.com/).
+- As an initial process of the project design, wireframes were created for desktop, iPad and mobile screen sizes using [Balsamiq](https://balsamiq.com/).
 
   * Desktop Wireframe - [View](assets/images/wireframe-desktop.pdf)
 
@@ -75,7 +75,7 @@ the site correctly, Chelsea Market font used for all the headings and PT sans fo
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on nav-items of navbar to add the wobble bottom transitions while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google font was used to embed the Chelsea Market and PT Sans font which is used on all pages throughout the project.
+    - Google font was used to embed the Chelsea Market and PT Sans font types which are used on all pages throughout the website.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
@@ -94,15 +94,15 @@ the site correctly, Chelsea Market font used for all the headings and PT sans fo
     - HTML formatter was used to format HTML code
 
 ## **Testing**
-Testing was carried out throughout the building process to ensure site was responsive at relevant breakpoints using [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools).
-The below tools were used at various points throughout the build:
+Testing was carried out throughout the building process to ensure website was responsive at relevant breakpoints using [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools).
+The below tools were used at various points throughout the build process:
 
 - [W3C Markup Validation](https://validator.w3.org/#validate_by_input) 
-  - W3C Markup Validation was used throughout the process to identify validate HTML
+  - W3C Markup Validation was used throughout the process to validate HTML codes
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) 
-  - W3C CSS Validation was used to vaildate CSS Code
+  - W3C CSS Validation was used to vaildate CSS codes
 - [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln/related) 
-  - Unicorn Revelar tool was used to identify any overflow issues
+  - Unicorn Revealer tool was used to identify any overflow issues
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
   - Lighthouse was used to test the performance and loading speed of the website
 
@@ -113,27 +113,27 @@ The below tools were used at various points throughout the build:
 
 ##### As a First Time User of this site, I want to easily navigate the site across all pages
 
-1. _Upon entering the site, Users are automatically greeted by the navigation bar at the top of the page(s) which contains menu items, linked to the pages of the site and allow users to access to the page(s) of their choice_
-2. _All the menu items to access the pages tested to ensure those took the users to the correct pages_
+1. _Upon entering the site, users are automatically greeted by the navigation bar at the top of the page(s) which contains menu items, linked to the pages of the site and allow users to access the page(s) of their choice._
+2. _All the menu items to access the pages tested to ensure those took the users to the correct pages._
 
 ##### As a First Time user of this site, I want to be able to understand the history of this Foundation, get to know or get familiar with the founders about their motivations to start this Foundation
 
-1. _Who we are option from menu item of navbar will take user to the second page where 'about us’ section greeted the users with history of this Foundation, user would be able to know history of foundation in more depth by clicking the read full story button on this page. Meet the Founders’ section displays to introduce the founders to users with  photos of the founders and flag images_
-2. _Button was tested to ensure it trigger the modal upon clicking. also tested that button and modal are responsive on small devices and visible clearly._
-3. _All the images were tested to ensure they are loading properly , responsive on small devices and not overlapping to each others._
+1. _Who We Are option from menu item of navbar will take user to the second page where 'About Us’ section greeted the users with history of this Foundation, user would be able to know history of foundation in more depth by clicking the read full story button on this page. Meet the Founders’ section displays to introduce the founders to users with photos of the founders and flag images._
+2. _Button was tested to ensure it trigger the modal upon clicking. Also, tested that button and modal are responsive on small devices and visible clearly._
+3. _All the images were tested to ensure they are loading properly, responsive on small devices and not overlapping to each others._
 
 #### Frequent User Goals
 
 ##### As a Frequent user of this site, I want to find new inspirations and ideas on what I can do to make a difference to someone's life by doing small help through this Foundation
      
-1. _What we do page of this website gives user with some inspirations and ideas to support others by participating to various activities, three different images of running, cycling and fund raising are displayed with text overlay on them and text has very motivitional message which encourage users to involve into such activities. Additionally a button below images can be clicked to find out more on how founders are contributing towards the charity fund._
+1. _What We Do page of this website gives user with some inspirations and ideas to support others by participating to various activities, three different images of running, cycling and fund raising are displayed with texts overlay on them and texts have very motivitional messages which encourage users to involve into such activities. Additionally a button below images can be clicked to find out more on how founders are contributing towards the charity fund._
 2. _All three images were tested to ensure they display collectly and loading quickly, also overlay effect was tested to ensure it is effective and all three overlay effects are exactly same. most importantly overlay effect was tested on various small screen size to ensure there is no issue with text overflowing outside of image._
-3. _Button was tested to ensure it triggers the modal upon clicking on it and modal was also tested to ensure images on the galary section inside the modal are loaded properly and displayed correctly across all devices_
+3. _Button was tested to ensure it triggers the modal upon clicking on it and modal was also tested to ensure images on the gallery section inside the modal are loaded properly and displayed correctly across all devices._
 
 ##### As a Frequent user of this site, I want to be able to continue the donations for the greater causes for this Foundation
 
-1. _Donate button on the home page gives an option to donate, upon clicking on this button, modal will trigger the form and user can easily donate to charity by submitting the donate form._
-2. _Donate button was tested to ensure it triggers the modal and pop up the form on the screen immediately , all the input elements on the forms were tested to ensure that error message appear if missing input element or incorret format used for email and contact number while completing the form_
+1. _Donate button on the home page gives an option to donate, upon clicking on this button, modal will trigger the form and users can easily donate to charity by submitting the donation form._
+2. _Donate button was tested to ensure it triggers the modal and pop up the form on the screen immediately, all the input elements on the forms were tested to ensure that error message appear if missing input element or incorret format used for email and contact number while completing the form._
 
 ##### As a Frequent user of this site, I want to get information on future activities on new charitable or volunteering activities
 
@@ -142,27 +142,27 @@ The below tools were used at various points throughout the build:
 
 ##### As a Frequent user of this site, I want to get connected with foundation by using social media.
 
-1. _social media icons on the media section of who we are , what we do and , join us page offers user to follow the charity on socila media, each icon will takes user to their login page window upon clicking on the icons._
+1. _Social media icons on the media section of Who We Are , What We Do and Join Us pages offer users to follow the Foundation on socila media, each icon will take users to their login page window upon clicking on the icons._
 2. _Each social media icon was tested to ensure new window with login page open on the browser once the icon clicked._
 
 #### Return User Goals
 
 ##### As a Return user of this site, I want to be able to Join or Sign-Up as a member
 
-1. _Join Us button of the home page directly take user to the Join us page of the website, alternatively user can also Join by selecting Join us menu item on navbar which displayed on every pages, user would need to complete a small and very simple form and then click Join us button below form._
-2. _Button on the home page was tested to ensure that it will take user to Join us oage opon clicking it, input elements on the forms were tested to ensure that error message appear if missing input element or incorret email or phone number format used while completing the form. also form was tested on mobile devices to ensure that form is displayed correctly, image on this page is hidden and [form is appear directly on screen](assets/images/form.jpg) while viewing the page on mobile devices._
+1. _Join Us button of the Home page directly takes users to the Join Us page of the website, alternatively users can also join by selecting Join Us menu item on navbar which displayed on every pages, users would need to complete a simple form and then click Join Us button at the bottom of the form._
+2. _Button on the Home page was tested to ensure that it will take user to Join Us oage opon clicking it, input elements on the forms were tested to ensure that error message appear if missing input element or incorret email or phone number format used while completing the form. Also, form was tested on mobile devices to ensure that form is displayed correctly, image on this page is hidden and [form is appear directly on screen](assets/images/form.jpg) while viewing the page on mobile devices._
 
 ##### As a Return user of this site, I want to be able to contact the founders or administrator to answer any query I may have relating to this Foundation 
 
-1. _Email address and contact numbers are provided on the pages, user can contact the founders directly using the icons of mail and phone displayed on the page. when user click on the mail icon, browser will redirect  user to gmail login page, and whatsapp login page will appear on the new window when user click on the phone icon._
-2. _contact section, mail and phone icon was tested on small devices to ensure they are responsive and displayed correctly, also test was carried to ensure mail and phone icon will take users to the corect page._
+1. _Email address and contact numbers of the Foundation are provided on the pages, users can contact the founders directly using the icons of mail and phone displayed on the pages. When users click on the mail icon, browser will redirect user to Gmail login page and Whatsapp login page will appear on the new window when users click on the phone icon._
+2. _Contact section, mail and phone icon was tested on small devices to ensure they are responsive and displayed correctly, also test was carried to ensure mail and phone icon will take users to the corect pages._
 
 
 ### Further Testing
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, iPhone.
-- A large amount of testing was done to ensure that all pages were linking correctly.
-- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+- The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 6, iPhone 11 and iPad.
+- A large amount of testing was done to ensure that all pages were linked correctly.
+- Friends and family members were asked to review the website and contents to point out any bugs and/or user experience issues.
 
 
 ## Features
@@ -170,12 +170,12 @@ The below tools were used at various points throughout the build:
 ### Navigation Bar
 
 The navigation bar is positioned at the top of each page, contains title and main menu of the website, which allows users to easily navigate and access all important pages
-and information regarding the website itself in just one click. Navbar has four menu items which are Home , Who We Are , What We Do and Join Us, each menu in the navigation bar would display visual indication of the current open page by changing the colour
+and information regarding the website itself in just one click. Navbar has four menu items which are Home, Who We Are, What We Do and Join Us, each menu in the navigation bar would display visual indication of the current open page by changing the colour
 compares to other menus.
 
 ### Media Section
 
-This section is repeated at the end of the content section of who we are , what we do and join us page which has sign up , social media links and contact options to the users. 
+This section is repeated at the end of the content section of Who We Are, What We Do and Join Us pages which has sign up, social media links and contact options to the users. 
    
 * _Sign-Up_ 
 
@@ -205,11 +205,11 @@ image is the aim of the Foundation to keep putting the efforts, gathering the su
 
 **Contents**
 
-Home page  is the landing page to welcome the users who access the website. The display contents are simple and concise which able to give a quick brief and look on the purposes
+Home page is the landing page to welcome the users who access the website. The display contents are simple and concise which able to give a quick brief and look on the purposes
 of the Foundation. The Foundation logo becomes the centre point of this page and follows by the slogan to inform the users about the key message which the Foundation is trying to deliver.
 this website aim to attract as many users to involve and support to the charity therefore join now and donate button also added to the home page which allow user to join and donate easily.
-join now button will take users to the last page of the website where user will be able to fill out  the form to join the charity , in a similar way donation form will pop up on the screen 
-when user click on donate button which is created by using bootstrap modal.
+join now button will take users to the last page of the website where user will be able to fill out the form to join the charity, in a similar way, donation form will pop up on the screen 
+when users click on donate button which created using bootstrap modal.
 
 
 ### Who We Are Page
@@ -223,7 +223,7 @@ the Foundation
 
 **Section 2 – Meet the Founders**
 
-The second section of page 2-Who We Are introduce the Founders to the users and letting the users to get to know the people who have developed and establishing the Foundation until now. 
+The second section of page 2-Who We Are introduce the Founders to the users and letting the users to get to know the people who have been developing and establishing the Foundation until now. 
 This section shows some details of the Founders, such as photos, names and countries of residency to allow the users to be familiarized themselves with the Founders.
 
 **Section 3 – Clarity**
@@ -275,7 +275,7 @@ text on the displayed image.
 
 * _button_
 
-A button is added at the end of the activities section, upon clicking on this button, modal will pop up and user would be able to see some inspiring images about how founders have been raising the funds to charity
+A button is added at the end of the activities section, upon clicking on this button, modal will pop up and users would be able to see some inspiring images about how founders have been raising the funds for the Foundaation.
 
 **Section 3 – Vision and Mission**
 
@@ -290,59 +290,59 @@ activities specified in previous sections.
 
 **Section 1 – Image**
 
-The image is specially designed to convey the important message of Together we change for vibrant future to encourage and become reminder of great outcomes which can be achieved together by the Founders and the users as benefactors by continuing the cycle of kindness and contributions as well as spreading love to the people, communities, societies and the world.
-Image on this section set to be hidden on mobile devices to ensure users do not have to spend extra time scroll further down on the page to complete the form to join.
+The image is specially designed to convey the important message of 'Together we change for vibrant future' to encourage and become reminder of great outcomes which can be achieved together by the Founders and the users as benefactors by continuing the cycle of kindness and contributions as well as spreading love to the people, communities, societies around the world.
+Image on this section set to be hidden on mobile devices to ensure users do not have to spend extra time scrolling further down on the page to complete the form to join.
 
 **Section 2 – Join Us Form**
 
 The form allows the users to register to the Foundation as members and able to stay connected and get updates regarding any activities and events attended or organized by the Foundation. Using this form, the users would be categorized as active users, therefore able to get notification to contribute towards the donations for good cause through the Foundation. There are several fields in the form which can be filled-in to collect personal information about the users, such as first name, last name, email address, phone number, country and interests.
-All the input fields on the form are mandatory and  message will pop up on the screen to inform user if user try to submit the form without completing the correct input field.
+All the input fields on the form are mandatory and message will pop up on the screen to inform user if user try to submit the form without completing the correct input field.
 
 **Section 3 - Media Section**
 
 **Section 5 - Footer Section**
 
 ## Future Features to be Implemented
-- Add new pages to website specially for image and video purpose, which allow owner to include more images and videos of Events or any programme that organized by charity
-- Add new page with Contact us section in order for charity to interact with user more easily and oftenly.
+- Add new pages to website specially for image and video purpose, which allow owner to include more images and videos of Events or any programme that organized by the Foundation.
+- Add new page with Contact Us section in order for the Foundation to interact and communicate with users more easily and oftenly.
 - Hero image on Landing page to be customize further, 3 or 4 images will be used for hero image using some animation effect on them.
 
 ## Issues and Resolutions
 
-#### The following issues were identified and ressolved throughout the build process.
+#### The following issues were identified and resolved throughout the build process.
 
-  - Text inside the Join button on the Home page had an issue as text not align properly, same class was used and same style applied in css for both Join now and Donate button however donate button did not show any issue and only join us button shown an issue.
+  - Text inside the Join Us button on the Home page had an issue as text not align properly, same class was used and same style applied in css for both Join now and Donate button however donate button did not show any issue and only join us button shown an issue.
     - Issue fixed by changing height of button to auto.
 
-  - While inspecting on Ipad pro display using dev tool, most of the content shrink and resulted excess white space below the footer section of Who we are and Join Us page.
-    - Issue was fixed by using media query , min-width and max-width value used in media query to target only iPad Pro display.
+  - While inspecting on iPad pro display using dev tool, most of the content shrink and resulted excess white space below the footer section of Who We Are and Join Us pages.
+    - Issue was fixed by using media query, min-width and max-width values used in media query to target only iPad Pro display.
 
   - There was also an excess white space on the bottom of content section of all pages except home page while display switched to iPad Pro.
-    - Issue was fixed by adding border-bottom value to all content container in style.css : border-bottom value set to double for all id 
-    relevenat to the content container of the pages which fixed an issue.
+    - Issue was fixed by adding border-bottom value to all content container in style.css : border-bottom value set to double for all IDs 
+    relevant to the content containers of the pages which fixed the issue.
 
-  - Text overflow issue on what we do page as text overlay on all 3 images overflown from image while switching display to extra small screen size.
-    - Issue was fixed by using media query - font size of the text reduced for extra small screen size using media query, which fixed an issue.
+  - Text overflow issue on What We Do page as text overlay on all 3 images overflown from those images while switching display to extra small screen size.
+    - Issue was fixed by using media query - font size of the texts reduced for extra small screen size using media query, which fixed the issue.
 
-  - Margin issue with phone and mail icon infront of the contact number and email address on  media section of Join Us page which cause icon and text very close and no space between, same codes were used on all pages and no similar issue noticed however only Join us page shown this issue
-    - mr-2 class to the i element was missing on join.html page, issue fixed once added mr-2 class.
+  - Margin issue with phone and mail icon in front of the contact number and email address on media section of Join Us page which cause icon and text displayed very close and no space between one another, same codes were used on all pages and no similar issue noticed, however only Join Us page identified with this issue.
+    - Missing mr-2 class to the i elements on join.html page, issue fixed once added mr-2 class.
 
-  - Slightly noticable whitespace below footer on 'who we are page' while switching display to iPad , could be just an optical illusion or any possible error
-    - Issue not yet ressolved.
+  - Slightly noticable whitespace below footer on 'Who We Are' page while switching display to iPad could be just an optical illusion or any possible error.
+    - Issue not yet resolved.
 
-  - While ran code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), backdrop-filter property of image-overlay-blur class which used in info.html for what we do page shown an [error message](assets/images/code-validation-error.jpg)
-    - issue not yet ressolved, reached out to tutor support as well and tutor had advised that this could be false result from validator as backdrop-filter property is fairly new and validator has probably not updated yet to look for this rule.
+  - While ran codes through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), backdrop-filter property of image-overlay-blur class which used in info.html for What We Do page showed an [error message](assets/images/code-validation-error.jpg).
+    - Issue not yet resolved, reached out for tutor support and tutor had advised that this issue could be false result from validator as backdrop-filter property is fairly new and validator has probably not updated yet to look for this rule.
   
-  - While I ran lightouse using devtool, Homepage has performance score was below 90% which i was not satisfied as i was aiming the score above 90% minimum
-    - Issue could not addressed further : as per lighthouse recommendation I tried to compress the image however i could not get the desire image in terms of quality and size after compression therefore could not make improvement as image was tested across all devices and no issue identified in terms of image loading time
-    .Also lower score in lighthouse report was caused by [vendor scripts](assets/images/lighthouse-issue.jpg) addde to my page (Bootstrap, Fontawesome etc) which was not possible to remove from the page. 
+  - While I ran Lightouse using dev tool, Home page has performance score below 90% which I was not satisfied as the aim was to score above 90% as the bare minimum.
+    - Issue could not addressed further : as per Lighthouse recommendation, I tried to compress the image however I could not get the desire image in terms of quality and size after compression therefore could not make improvement as image was tested across all devices and no issue identified in terms of image loading time.
+    Also, lower score in Lighthouse report was caused by [vendor scripts](assets/images/lighthouse-issue.jpg) added to my page (Bootstrap, Fontawesome etc) which was not possible to be removed from the page. 
   
-  - **Internet Explorer** showed an Issue on Home page,  while testing the page, [Content of the home page and logo did not display correctly](assets/images/homepage.jpg) in the centre, instead displayed vertically.
-    Also donate and sign up form showing an [issue with placeholder text](assets/images/modal.jpg) as placeholder text not displaying correctly, gallary section on the what we do page which trigger by button below images also shown large excess space below images
-    - issue not yet ressolved
+  - **Internet Explorer** showed an issue on Home page, while testing the page, [Content of the home page and logo did not display correctly](assets/images/homepage.jpg) in the centre, instead displayed vertically.
+    Also, Donate and Sign up forms showed an [issue with placeholder text](assets/images/modal.jpg) as placeholder text not displaying correctly, gallery section on the What We Do page which trigger by button below images also showed large excess space below images.
+    - Issue not yet resolved
 
-  - **Mozilla Firefox** **Internet Explorer** shown an issue with images on what we do pages as blur-effect that used on image did not work.
-    - issue not yet ressolved, after reaching out with tutor support, mentor and doing my own reaserach I have found that backdrop-filter property that i have used in my style.css for blur effect not currently supported on **Mozilla Firefox** **Internet Explorer** which resulted diffrent outcome as compare to Google Chrome and safari.
+  - **Mozilla Firefox** **Internet Explorer** showed an issue with images on What We Do page as blur-effect that used on image did not work.
+    - Issue not yet resolved, after reaching out with tutor support, mentor and doing my own reaserach I have found that backdrop-filter property that I have used in my style.css for blur effect not currently supported on **Mozilla Firefox** **Internet Explorer** which resulted diffrent outcome as compares to Google Chrome and Safari.
 
 ## Deployment
 
@@ -391,35 +391,35 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credit
 
-* Background image on the Homepage was taken from [Unsplash](https://unsplash.com/photos/PAiVzSmYy-c), credit to Ben White for uploading this picture to [Unsplash](unsplash.com)
+* Background image on the Home page was taken from [Unsplash](https://unsplash.com/photos/PAiVzSmYy-c), credit to Ben White for uploading this picture to [Unsplash](unsplash.com)
  
-* Four images of the founders on who we are page the true images of founders of the charity and all founders were happy to publish their image on website, thanks to everyone
+* Four images of the Founders on Who We Are page are the true images of Founders of the Foundation and all of the Founders were happy to publish their images on website, thanks to everyone
  
-* Image of Nepal's Flag  which is displayed below the images of founders on who we are page were taken from [Google](https://www.google.com/search?q=flag+of+nepal&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk02jALv28pQWx0SJ_wWS8Z0ZifdW7w:1605524058842&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjNitKZ84btAhUrVRUIHaVEAicQ_AUoAXoECBEQAw&biw=1920&bih=969) and modified as per project requirement using powerpoint
+* Image of flag of Nepal which is displayed below the images of Founders on Who We Are page were taken from [Google](https://www.google.com/search?q=flag+of+nepal&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk02jALv28pQWx0SJ_wWS8Z0ZifdW7w:1605524058842&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjNitKZ84btAhUrVRUIHaVEAicQ_AUoAXoECBEQAw&biw=1920&bih=969) and modified as per project requirement using powerpoint
 
-* Image of UK's flag which is displayed below the images of founders on who we are page were taken from [Google](https://www.google.com/search?q=flag+of+uk&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk03nNHin4cq4Z6qlORbyjWHf2nxyTQ:1605524377976&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2xOix9IbtAhVCThUIHabHBGUQ_AUoAXoECA4QAw&biw=1920&bih=969) and modified as per project requirement using powerpoint
+* Image of flag of the UK which is displayed below the images of Founders on Who We Are page were taken from [Google](https://www.google.com/search?q=flag+of+uk&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk03nNHin4cq4Z6qlORbyjWHf2nxyTQ:1605524377976&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2xOix9IbtAhVCThUIHabHBGUQ_AUoAXoECA4QAw&biw=1920&bih=969) and modified as per project requirement using powerpoint
   
-* First image of running on What we do page was taken from [Coachmag](https://www.coachmag.co.uk/marathon-training/6520/london-marathon-ballot)
+* First image of running on What We Do page was taken from [Coachmag](https://www.coachmag.co.uk/marathon-training/6520/london-marathon-ballot)
  
-* Second Image of cycling on what we do page was taken from google images of [london prudential ride](https://www.google.com/search?q=london+prudential+ride+images&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk03nYavIJg2EzgahHj3ulAokn_ZrrQ:1605527548092&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiThrmZgIftAhXCUBUIHWXHBRkQ_AUoAnoECAgQBA&biw=1920&bih=969#imgrc=nSP_iZ-JsBdMNM)
+* Second Image of cycling on What We Do page was taken from google images of [london prudential ride](https://www.google.com/search?q=london+prudential+ride+images&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk03nYavIJg2EzgahHj3ulAokn_ZrrQ:1605527548092&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiThrmZgIftAhXCUBUIHWXHBRkQ_AUoAnoECAgQBA&biw=1920&bih=969#imgrc=nSP_iZ-JsBdMNM)
  
-* Third image of fund collection on what we do page was taken from [Unsplash](https://unsplash.com/photos/Y_x747Yshlw), thanks to Christian Dubovan for uploading this image to [Unsplash](unsplash.com)
+* Third image of fund collection on What We Do page was taken from [Unsplash](https://unsplash.com/photos/Y_x747Yshlw), thanks to Christian Dubovan for uploading this image to [Unsplash](unsplash.com)
  
-* Some of the text content in vision section of what we do page were taken from [Charity Navigator Page](https://www.charitynavigator.org/index.cfm?bay=content.view&cpid=17)
+* Some of the text contents in Vision section of What We Do page were taken from [Charity Navigator Page](https://www.charitynavigator.org/index.cfm?bay=content.view&cpid=17)
  
-* Thanks to dcode for [youtube video](https://www.youtube.com/watch?v=exb2ab72Xhs) on Image Hover Text Overlay effect - I have used some code and concept from this video for my what we do page while creating overlay effect on image 
+* Thanks to dcode for [youtube video](https://www.youtube.com/watch?v=exb2ab72Xhs) on Image Hover Text Overlay effect - I have used some codes and concepts from this video for What We Do page while creating overlay effect on image 
 
 * Thanks to Academind for [youtube video](https://www.youtube.com/watch?v=23bpce-5s8I) on Bootstrap Navbar concepts which was really helpful for me to understand on making Navbar responsive. 
 
 * Concept of having number pattern as required element for phone number while creating form for Join Us page was taken from [Codegrepper Page](https://www.codegrepper.com/code-examples/html/html+phone+number+input)
  
-* Credit to [W3School](https://www.w3schools.com/default.asp) page as i have accessed this page throughout the process which was really helpful for ressolving an issue on several occasion , i have also taken the HTML code from [W3school](https://www.w3schools.com/html/html_forms.asp) while creating form for my Join Us page and modified as per project requirement
+* Credit to [W3School](https://www.w3schools.com/default.asp) page as I have accessed this page throughout the process which was really helpful for resolving an issue on several occasion, I have also taken the HTML code from [W3school](https://www.w3schools.com/html/html_forms.asp) while creating form for Join Us page and modified as per project requirement
 
 
 ## Acknowledgements
 
-I would like to thank everyone on the Code institute Slack channels, tutor support team and Massive thank to my Mentor [Mark Railton](https://github.com/railto)
+I would like to thank everyone on the Code institute Slack channels, tutor support team and massive thank to my Mentor [Mark Railton](https://github.com/railto).
 
 ## Disclaimer
 
-All images and contents of website are eductaional purpose only
+All images and contents of the website are educational purposes only.
