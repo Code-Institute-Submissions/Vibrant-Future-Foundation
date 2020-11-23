@@ -95,14 +95,15 @@ body {
 }
 
 /*------Hover--------*/
-.list-inline-social i:hover,
-.connect-col-1 i:hover,
-.connect-col-2 i:hover {
+ 
+ .list-inline-social i:hover,
+ .connect-col-1 i:hover,
+ .connect-col-2 i:hover {
   color: #009b83;
 }
 
 /*-----------------------Navigation---------------*/
-.bg-dark {
+ .bg-dark {
   background-color: #009b83 !important;
 }
 
@@ -163,9 +164,9 @@ body {
 
 .intro img {
   display: block;
-  width: 9em;
+  width: 14em;
   margin: auto;
-  height: 10em;
+  height: 15em;
 }
 
 /*----Who we are page(About section)----------*/
@@ -583,6 +584,12 @@ input[type="checkbox"] {
   .small-text {
     font-size: 12px;
   }
+
+  .intro img {
+    width: 10em;
+    height: 11em;
+  }
+
   .btn-home {
     width: fit-content;
     height: fit-content;
@@ -591,23 +598,33 @@ input[type="checkbox"] {
   .btn-info {
     margin-bottom: 10%;
   }
-}
 
-.action-heading {
+ .action-heading {
   font-size: 95%;
-}
-.action-sub-heading {
+  }
+
+ .action-sub-heading {
   font-size: 99%;
-}
+  }
 
-.col-form {
+ .col-form {
   margin-top: 30px;
+  }
+
+  input[type="text"],
+    [type="tel"] {
+   padding: 15px;
+  }
+
+  .col-media,
+  .col-social,
+  .col-conect{
+  padding-top: 15px;
+  padding-bottom: 15px; 
+  }
 }
 
-input[type="text"],
-[type="tel"] {
-  padding: 15px;
-}
+
 
 @media (min-width: 768px) and (max-width: 768px) {
   .media-row {
