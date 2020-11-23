@@ -85,11 +85,13 @@ body {
   display: block;
 }
 
+.btn--dot{
+  margin-left: -6px;
+}
 /*------Hover--------*/
 
 .btn--cta:hover,
 .btn--signUp:hover,
-.btn--dot:hover,
 .btn-home:hover,
 .btn-info:hover {
   background: #009b83 !important;
@@ -99,10 +101,6 @@ body {
 .connect-col-1 i:hover,
 .connect-col-2 i:hover {
   color: #009b83;
-}
-
-.list-inline-social a i:hover {
-    text-decoration: none;
 }
 
 /*-----------------------Navigation---------------*/
@@ -293,6 +291,10 @@ body {
   list-style: none;
 }
 
+.list-inline-social a  {
+  text-decoration: none;
+}
+
 .list-inline-item {
   display: inline;
   font-size: 40px;
@@ -338,7 +340,7 @@ body {
   margin-top: 20px;
 }
 
-/*-- code taken from youtube video of dcode  (https://www.youtube.com/watch?v=exb2ab72Xhs) 
+/*-- code taken from youtube video of dcode (https://www.youtube.com/watch?v=exb2ab72Xhs) 
     and modified as per project requirement (start)--*/
 
 .image-overlay {

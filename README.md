@@ -340,6 +340,15 @@ All the input fields on the form are mandatory and message will pop up on the sc
 
   - **Mozilla Firefox** **Internet Explorer** showed an issue with images on What We Do page as blur-effect that used on image did not work.
     - After reaching out with tutor support, mentor and doing my own reaserach I have found that backdrop-filter property that I initially used in my style.css for blur effect only supported on **Google Chrom** which resulted diffrent outcome on page while viewing on **Mozilla Firefox**, **Internet Explorer** and also on **iPad** . I have therefore removed backdrop-filter property from my style.css, instead i have used background property and add background of #495057cc to image-overlay class which ressolved an issue.  
+ 
+  -  Small [horizontal line](assets/images/social-icon-error.jpg) appears next to bottom-right of each social media icons of the page while hovering over those icons, which i did not add neither i wanted those to be appear.
+    - Issue fixed by adding text decoration property in style.css to the social media icons : text-decoration value set to none which fixed an issue.
+
+    ```
+    .list-inline-social a  {
+    text-decoration: none;
+    }
+    ```
 
 ## Deployment
 
