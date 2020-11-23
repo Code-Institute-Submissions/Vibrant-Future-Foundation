@@ -327,12 +327,9 @@ All the input fields on the form are mandatory and message will pop up on the sc
   - Margin issue with phone and mail icon in front of the contact number and email address on media section of Join Us page which cause icon and text displayed very close and no space between one another, same codes were used on all pages and no similar issue noticed, however only Join Us page identified with this issue.
     - Missing mr-2 class to the i elements on join.html page, issue fixed once added mr-2 class.
 
-  - Slightly noticable whitespace below footer on 'Who We Are' page while switching display to iPad could be just an optical illusion or any possible error.
+  - Slightly noticable whitespace below footer on 'Who We Are' page while switching display to iPad which could be just an optical illusion or any possible error.
     - Issue not yet resolved.
 
-  - While ran codes through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), backdrop-filter property of image-overlay-blur class which used in info.html for What We Do page showed an [error message](assets/images/code-validation-error.jpg).
-    - Issue not yet resolved, reached out for tutor support and tutor had advised that this issue could be false result from validator as backdrop-filter property is fairly new and validator has probably not updated yet to look for this rule.
-  
   - While I ran Lightouse using dev tool, Home page has performance score below 90% which I was not satisfied as the aim was to score above 90% as the bare minimum.
     - Issue could not addressed further : as per Lighthouse recommendation, I tried to compress the image however I could not get the desire image in terms of quality and size after compression therefore could not make improvement as image was tested across all devices and no issue identified in terms of image loading time.
     Also, lower score in Lighthouse report was caused by [vendor scripts](assets/images/lighthouse-issue.jpg) added to my page (Bootstrap, Fontawesome etc) which was not possible to be removed from the page. 
@@ -342,7 +339,7 @@ All the input fields on the form are mandatory and message will pop up on the sc
     - Issue not yet resolved
 
   - **Mozilla Firefox** **Internet Explorer** showed an issue with images on What We Do page as blur-effect that used on image did not work.
-    - Issue not yet resolved, after reaching out with tutor support, mentor and doing my own reaserach I have found that backdrop-filter property that I have used in my style.css for blur effect not currently supported on **Mozilla Firefox** **Internet Explorer** which resulted diffrent outcome as compares to Google Chrome and Safari.
+    - After reaching out with tutor support, mentor and doing my own reaserach I have found that backdrop-filter property that I initially used in my style.css for blur effect only supported on **Google Chrom** which resulted diffrent outcome on page while viewing on **Mozilla Firefox**, **Internet Explorer** and also on **iPad** . I have therefore removed backdrop-filter property from my style.css, instead i have used background property and add background of #495057cc to image-overlay class which ressolved an issue.  
 
 ## Deployment
 
