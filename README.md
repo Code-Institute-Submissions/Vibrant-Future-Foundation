@@ -419,7 +419,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 * Concept of having number pattern as required element for phone number while creating form for Join Us page was taken from [Codegrepper Page](https://www.codegrepper.com/code-examples/html/html+phone+number+input)
  
-* Credit to [W3School](https://www.w3schools.com/default.asp) page as I have accessed this page throughout the process which was really helpful for resolving an issue on several occasion, I have also taken the HTML code from [W3school](https://www.w3schools.com/html/html_forms.asp) while creating form for Join Us page and modified as per project requirement
+* Credit to [W3School](https://www.w3schools.com/default.asp) page as I have accessed this page throughout the process which was really helpful for resolving an issue on several occasion, I have also taken the [HTML code from W3school](https://www.w3schools.com/html/html_forms.asp) while creating form for Join Us page and modified as per project requirement
 
 
 ## Acknowledgements
