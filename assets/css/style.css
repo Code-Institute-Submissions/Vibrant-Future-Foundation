@@ -54,7 +54,7 @@ body {
 /*-------------------Buttons-----------------*/
 
 .btn-info {
-  border: 2px solid var(--secondary);
+  border: 2px solid var(--secondary) !important;
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -63,39 +63,39 @@ body {
   margin-right: 3%;
   margin-left: 3%;
   height: auto;
-  border: 2px solid var(--secondary);
+  border: 2px solid var(--secondary) !important;
   border-radius: 10px;
   font-size: 18px;
   color: #000000;
   font-weight: 600;
 }
 
-.btn--dot {
-  border: 2px solid var(--secondary);
-  border-radius: 10px;
-  height: fit-content;
-  width: fit-content;
-  font-size: 90%;
-  margin-top: 5%;
-}
-
 .btn--signUp {
   margin-bottom: 5%;
-  border: 2px solid var(--secondary);
-  border-radius: 10px;
+  border: 2px solid var(--secondary) !important;
+  border-radius: 10px;  
 }
 
 .btn--cta {
   margin: 0 auto;
   width: auto;
-  border: 2px solid var(--secondary);
+  border: 2px solid var(--secondary) !important;
   border-radius: 10px;
   transform: translate(5%, 45%);
   display: block;
 }
 
+
 /*------Hover--------*/
  
+ .btn--cta:hover,
+ .btn--signUp:hover,
+ .btn--dot:hover,
+ .btn-home:hover,
+ .btn-info:hover{
+    background: #009b83 !important;
+ }
+
  .list-inline-social i:hover,
  .connect-col-1 i:hover,
  .connect-col-2 i:hover {
@@ -121,8 +121,9 @@ body {
 
 .navbar .navbar-brand {
   color: #000000;
-  font-weight: 600;
+  font-weight: 400;
   font-size: x-large;
+  font-family: "Chelsea Market", sans-serif;
 }
 
 /*--------------------------Home Page---------*/
@@ -343,25 +344,13 @@ body {
   align-items: center;
   justify-content: center;
   opacity: 0;
+  background: #495057cc;
   transition: opacity 0.25s;
 }
 
-.image-overlay-blur {
-  backdrop-filter: blur(12px);
-}
-
-.image-overlay > * {
-  transform: translateY(100px);
-  transition: transform 0.9s;
-}
-
-.image-overlay:hover {
+ .image-overlay:hover {
   opacity: 1;
-}
-
-.image-overlay:hover > * {
-  transform: translateY(0);
-}
+ }
 
 /*--code taken from youtube video of decode (https://www.youtube.com/watch?v=exb2ab72Xhs)
     and modified as per project requirement (End)--*/
@@ -452,11 +441,11 @@ input[type="text"],
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #009b83;
   color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 2px solid var(--secondary) !important;
   cursor: pointer;
   margin-top: 20px;
   margin-bottom: 16px;
@@ -653,6 +642,27 @@ input[type="checkbox"] {
 }
 
 @media (min-width: 1024px) and (max-width: 1024px) {
+
+  .jumbotron-title{
+    font-size: 60px;
+  }
+
+  .small-text{
+    font-size: 28px
+  }
+
+  .intro img{
+    width: 21em;
+    height: 22em;
+  }
+
+ .btn-home{
+   height: 50px;
+   width: 120px;
+   padding: 7px;
+   font-size: 140%
+ }
+
   .about-container,
   .founder-row,
   .clarity-row {
