@@ -73,7 +73,7 @@ body {
 .btn--signUp {
   margin-bottom: 5%;
   border: 2px solid var(--secondary) !important;
-  border-radius: 10px;  
+  border-radius: 10px;
 }
 
 .btn--cta {
@@ -85,26 +85,29 @@ body {
   display: block;
 }
 
-
 /*------Hover--------*/
- 
- .btn--cta:hover,
- .btn--signUp:hover,
- .btn--dot:hover,
- .btn-home:hover,
- .btn-info:hover{
-  background: #009b83 !important;
- }
 
- .list-inline-social i:hover,
- .connect-col-1 i:hover,
- .connect-col-2 i:hover {
+.btn--cta:hover,
+.btn--signUp:hover,
+.btn--dot:hover,
+.btn-home:hover,
+.btn-info:hover {
+  background: #009b83 !important;
+}
+
+.list-inline-social i:hover,
+.connect-col-1 i:hover,
+.connect-col-2 i:hover {
   color: #009b83;
 }
 
+.list-inline-social a i:hover {
+    text-decoration: none;
+}
+
 /*-----------------------Navigation---------------*/
- .bg-dark {
-   background-color: #009b83 !important;
+.bg-dark {
+  background-color: #009b83 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -300,9 +303,9 @@ body {
   padding-top: 3%;
 }
 
-.sub-heading-small{
- font-style: italic;
- color: #0062cced;
+.sub-heading-small {
+  font-style: italic;
+  color: #0062cced;
 }
 
 .textAndImage {
@@ -352,9 +355,9 @@ body {
   transition: opacity 0.25s;
 }
 
- .image-overlay:hover {
+.image-overlay:hover {
   opacity: 1;
- }
+}
 
 /*--code taken from youtube video of decode (https://www.youtube.com/watch?v=exb2ab72Xhs)
     and modified as per project requirement (End)--*/
@@ -430,6 +433,17 @@ body {
   width: 100%;
   margin: 0 auto;
   margin-top: 60px;
+}
+
+.heading-form {
+  font-size: 25px;
+  color: rgb(19 1 1 / 91%);
+}
+
+.sub-heading-form {
+  font-size: 16px;
+  color: blue;
+  font-style: italic;
 }
 
 input[type="text"],
@@ -548,6 +562,10 @@ input[type="checkbox"] {
   border: 2px solid #525252;
 }
 
+.contactModal{
+background: #fafafa;
+margin-top: 80%;
+}
 /*----------------------------------------@media---------------------------------*/
 
 @media screen and (max-width: 305px) {
@@ -592,32 +610,30 @@ input[type="checkbox"] {
     margin-bottom: 10%;
   }
 
- .action-heading {
-  font-size: 95%;
+  .action-heading {
+    font-size: 95%;
   }
 
- .action-sub-heading {
-  font-size: 99%;
+  .action-sub-heading {
+    font-size: 99%;
   }
 
- .col-form {
-  margin-top: 30px;
+  .col-form {
+    margin-top: 30px;
   }
 
   input[type="text"],
-    [type="tel"] {
-   padding: 15px;
+  [type="tel"] {
+    padding: 15px;
   }
 
   .col-media,
   .col-social,
-  .col-conect{
-  padding-top: 15px;
-  padding-bottom: 15px; 
+  .col-conect {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
-
-
 
 @media (min-width: 768px) and (max-width: 768px) {
   .media-row {
@@ -646,26 +662,25 @@ input[type="checkbox"] {
 }
 
 @media (min-width: 1024px) and (max-width: 1024px) {
-
-  .jumbotron-title{
+  .jumbotron-title {
     font-size: 60px;
   }
 
-  .small-text{
-    font-size: 28px
+  .small-text {
+    font-size: 28px;
   }
 
-  .intro img{
+  .intro img {
     width: 21em;
     height: 22em;
   }
 
- .btn-home{
-   height: 50px;
-   width: 120px;
-   padding: 7px;
-   font-size: 140%
- }
+  .btn-home {
+    height: 50px;
+    width: 120px;
+    padding: 7px;
+    font-size: 140%;
+  }
 
   .about-container,
   .founder-row,
