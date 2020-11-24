@@ -579,9 +579,32 @@ margin-top: 80%;
 /*----------------------------------------@media---------------------------------*/
 
 @media only screen and (orientation: landscape) {
+  /* .navbar .navbar-brand{
+      font-size: 10px;
+  }   */
+
+  /* .navbar-light .navbar-nav .nav-link {
+    font-size: 9px;
+  } */
+
+.small-text {
+    font-size: 9px;
+}
+
+  .jumbotron-title {
+    font-size: large;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+
   .intro img{
-    width: 10em;
-    height: 11em;
+    width: 6em;
+    height: 7em;
+    display: none;
+ }
 }
 
 @media screen and (max-width: 325px) {
@@ -613,8 +636,8 @@ margin-top: 80%;
   }
 
   .intro img {
-    width: 10em;
-    height: 11em;
+    width: 8em;
+    height: 9em;
   }
 
   .btn-home {
