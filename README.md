@@ -396,7 +396,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credit
 
-* Background image on the Home page was taken from [Unsplash](https://unsplash.com/photos/PAiVzSmYy-c), credit to Ben White for uploading this picture to [Unsplash](unsplash.com)
+* Background image on the Home page was taken from [Unsplash](https://unsplash.com/photos/PAiVzSmYy-c), credit to Ben White for uploading this picture to [Unsplash](https://unsplash.com/)
  
 * Four images of the Founders on Who We Are page are the true images of Founders of the Foundation and all of the Founders were happy to publish their images on website, thanks to everyone
  
@@ -408,7 +408,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
  
 * Second Image of cycling on What We Do page was taken from google images of [london prudential ride](https://www.google.com/search?q=london+prudential+ride+images&rlz=1C1CHBF_en-GBGB881GB881&sxsrf=ALeKk03nYavIJg2EzgahHj3ulAokn_ZrrQ:1605527548092&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiThrmZgIftAhXCUBUIHWXHBRkQ_AUoAnoECAgQBA&biw=1920&bih=969#imgrc=nSP_iZ-JsBdMNM)
  
-* Third image of fund collection on What We Do page was taken from [Unsplash](https://unsplash.com/photos/Y_x747Yshlw), thanks to Christian Dubovan for uploading this image to [Unsplash](unsplash.com)
+* Third image of fund collection on What We Do page was taken from [Unsplash](https://unsplash.com/photos/Y_x747Yshlw), thanks to Christian Dubovan for uploading this image to [Unsplash](https://unsplash.com/)
  
 * Some of the text contents in Vision section of What We Do page were taken from [Charity Navigator Page](https://www.charitynavigator.org/index.cfm?bay=content.view&cpid=17)
  
