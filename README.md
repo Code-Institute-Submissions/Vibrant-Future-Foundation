@@ -331,7 +331,7 @@ All the input fields on the form are mandatory and message will pop up on the sc
     - Issue not yet resolved.
 
   - While I ran Lightouse using dev tool, Home page has performance score below 90% which I was not satisfied as the aim was to score above 90% as the bare minimum.
-    - Issue could not addressed further : as per Lighthouse recommendation, I tried to compress the image however I could not get the desire image in terms of quality and size after compression therefore could not make improvement as image was tested across all devices and no issue identified in terms of image loading time.
+    - Issue could not addressed further : as per Lighthouse recommendation, I tried to [compress the image](assets/images/compressed-image.JPG) however I could not get the desire image in terms of quality and size after compression therefore could not make improvement as image was tested across all devices and no issue identified in terms of image loading time.
     Also, lower score in Lighthouse report was caused by [vendor scripts](assets/images/lighthouse-issue.jpg) added to my page (Bootstrap, Fontawesome etc) which was not possible to be removed from the page. 
   
   - **Internet Explorer** showed an issue on Home page, while testing the page, [Content of the home page and logo did not display correctly](assets/images/homepage.jpg) in the centre, instead displayed vertically.
@@ -358,7 +358,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
- - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh and the website is now deployed.

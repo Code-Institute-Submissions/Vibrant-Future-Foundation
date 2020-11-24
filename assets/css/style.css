@@ -570,7 +570,7 @@ margin-top: 80%;
 }
 /*----------------------------------------@media---------------------------------*/
 
-@media screen and (max-width: 305px) {
+@media screen and (max-width: 325px) {
   .heading-about,
   .heading-main {
     margin-top: 90px;
