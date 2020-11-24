@@ -88,6 +88,10 @@ body {
 .btn--dot{
   margin-left: -6px;
 }
+
+.btn-join{
+    margin-right: auto;
+}
 /*------Hover--------*/
 
 .btn--cta:hover,
@@ -101,6 +105,10 @@ body {
 .connect-col-1 i:hover,
 .connect-col-2 i:hover {
   color: #009b83;
+}
+
+input[type="submit"]:hover{
+    background: #009b83;
 }
 
 /*-----------------------Navigation---------------*/
@@ -461,7 +469,7 @@ input[type="text"],
 }
 
 input[type="submit"] {
-  background-color: #009b83;
+  background-color: #28a745;
   color: white;
   padding: 10px 10px;
   border-radius: 10px;
@@ -569,6 +577,12 @@ background: #fafafa;
 margin-top: 80%;
 }
 /*----------------------------------------@media---------------------------------*/
+
+@media only screen and (orientation: landscape) {
+  .intro.img{
+    width: 10em;
+    height: 11em;
+}
 
 @media screen and (max-width: 325px) {
   .heading-about,
