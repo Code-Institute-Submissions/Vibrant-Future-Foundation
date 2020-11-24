@@ -579,7 +579,7 @@ margin-top: 80%;
 /*----------------------------------------@media---------------------------------*/
 
 @media only screen and (orientation: landscape) {
-  .intro.img{
+  .intro img{
     width: 10em;
     height: 11em;
 }
