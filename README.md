@@ -296,7 +296,7 @@ Image on this section set to be hidden on mobile devices to ensure users do not 
 **Section 2 – Join Us Form**
 
 The form allows the users to register to the Foundation as members and able to stay connected and get updates regarding any activities and events attended or organized by the Foundation. Using this form, the users would be categorized as active users, therefore able to get notification to contribute towards the donations for good cause through the Foundation. There are several fields in the form which can be filled-in to collect personal information about the users, such as first name, last name, email address, phone number, country and interests.
-All the input fields on the form are mandatory and message will pop up on the screen to inform user if user try to submit the form without completing the correct input field. This form is created using HTML and CSS only and currently not functioning.
+All the input fields on the form are mandatory and message will pop up on the screen to inform user if user try to submit the form without completing the correct input field. This form is created using HTML and CSS only and not functioning yet.
 
 **Section 3 - Media Section**
 
